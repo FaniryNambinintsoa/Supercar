@@ -1,0 +1,154 @@
+CRITICAL - 2025-10-01 06:03:51 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-01 06:04:22 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-01 06:04:24 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-01 06:04:24 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-01 06:04:28 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-01 06:04:41 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-01 06:04:42 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-01 06:04:42 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-01 06:04:42 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-01 06:04:42 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-01 06:04:42 --> ErrorException: Undefined variable $voitures
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\TESTAGE.php on line 21.
+ 1 APPPATH\Views\TESTAGE.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voitures', 'C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\TESTAGE.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('TESTAGE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

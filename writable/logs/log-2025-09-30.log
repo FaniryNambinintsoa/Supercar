@@ -1,0 +1,615 @@
+CRITICAL - 2025-09-30 06:01:26 --> ErrorException: Undefined variable $model
+[Method: GET, Route: Voiture/ajoutVoiture]
+in APPPATH\Views\header.php on line 26.
+ 1 APPPATH\Views\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\wamp64\\www\\Supercar\\app\\Views\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Voiture.php(11): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Voiture->formVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:01:26 --> ErrorException: Undefined variable $model
+[Method: GET, Route: /]
+in APPPATH\Views\header.php on line 26.
+ 1 APPPATH\Views\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\wamp64\\www\\Supercar\\app\\Views\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Acceuil.php(8): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:01:29 --> ErrorException: Undefined variable $model
+[Method: GET, Route: /]
+in APPPATH\Views\header.php on line 26.
+ 1 APPPATH\Views\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\wamp64\\www\\Supercar\\app\\Views\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Acceuil.php(8): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:01:40 --> ErrorException: Undefined variable $model
+[Method: GET, Route: /]
+in APPPATH\Views\header.php on line 26.
+ 1 APPPATH\Views\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\wamp64\\www\\Supercar\\app\\Views\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Acceuil.php(8): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:09:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:10:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:15:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:16:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:16:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:16:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:16:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:16:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:16:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:19:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "message_succes.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_succes.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('message_succes', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(8): view('message_succes')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:54:03 --> TypeError: App\Controllers\TESTAGE::TESTAGE(): Return value must be of type string, none returned
+[Method: GET, Route: test]
+in APPPATH\Controllers\TESTAGE.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:55:14 --> TypeError: App\Controllers\TESTAGE::TESTAGE(): Return value must be of type string, none returned
+[Method: GET, Route: test]
+in APPPATH\Controllers\TESTAGE.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:57:39 --> TypeError: App\Controllers\TESTAGE::TESTAGE(): Return value must be of type string, none returned
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Controllers\TESTAGE.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:57:45 --> TypeError: App\Controllers\TESTAGE::TESTAGE(): Return value must be of type string, none returned
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Controllers\TESTAGE.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 06:58:58 --> TypeError: App\Controllers\TESTAGE::TESTAGE(): Return value must be of type string, none returned
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Controllers\TESTAGE.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 07:07:59 --> ErrorException: Undefined variable $messagesucces
+[Method: POST, Route: Voiture/ajoutVoiture]
+in APPPATH\Views\messagesucces.php on line 13.
+ 1 APPPATH\Views\messagesucces.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $messagesucces', 'C:\\wamp64\\www\\Supercar\\app\\Views\\messagesucces.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\messagesucces.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('messagesucces', [], true)
+ 5 APPPATH\Controllers\Voiture.php(39): view('messagesucces')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Voiture->ajoutVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 07:09:04 --> ErrorException: Undefined variable $messagesucces
+[Method: POST, Route: Voiture/ajoutVoiture]
+in APPPATH\Views\messagesucces.php on line 14.
+ 1 APPPATH\Views\messagesucces.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $messagesucces', 'C:\\wamp64\\www\\Supercar\\app\\Views\\messagesucces.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\messagesucces.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('messagesucces', [], true)
+ 5 APPPATH\Controllers\Voiture.php(39): view('messagesucces')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Voiture->ajoutVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 07:09:08 --> ErrorException: Undefined variable $messagesucces
+[Method: POST, Route: Voiture/ajoutVoiture]
+in APPPATH\Views\messagesucces.php on line 14.
+ 1 APPPATH\Views\messagesucces.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $messagesucces', 'C:\\wamp64\\www\\Supercar\\app\\Views\\messagesucces.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\messagesucces.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('messagesucces', [], true)
+ 5 APPPATH\Controllers\Voiture.php(39): view('messagesucces')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Voiture->ajoutVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 07:09:12 --> ErrorException: Undefined variable $messagesucces
+[Method: POST, Route: Voiture/ajoutVoiture]
+in APPPATH\Views\messagesucces.php on line 14.
+ 1 APPPATH\Views\messagesucces.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $messagesucces', 'C:\\wamp64\\www\\Supercar\\app\\Views\\messagesucces.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\messagesucces.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('messagesucces', [], true)
+ 5 APPPATH\Controllers\Voiture.php(39): view('messagesucces')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Voiture->ajoutVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 07:12:43 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Voiture.php on line 39
+[Method: POST, Route: Voiture/ajoutVoiture]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Voiture.php(39): view('messagesucces', 'Voiture ajoutée avec succès !')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Voiture->ajoutVoiture()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 07:18:30 --> ErrorException: Undefined variable $succes
+[Method: POST, Route: Voiture/ajoutVoiture]
+in APPPATH\Views\messagesucces.php on line 13.
+ 1 APPPATH\Views\messagesucces.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $succes', 'C:\\wamp64\\www\\Supercar\\app\\Views\\messagesucces.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\messagesucces.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('messagesucces', [], true)
+ 5 APPPATH\Controllers\Voiture.php(39): view('messagesucces', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Voiture->ajoutVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-30 11:41:23 --> ErrorException: Undefined array key "id_voiture"
+[Method: GET, Route: Voiture/ListeVoiture]
+in APPPATH\Views\affichageVoiture.php on line 22.
+ 1 APPPATH\Views\affichageVoiture.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_voiture"', 'C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(18): view('affichageVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
