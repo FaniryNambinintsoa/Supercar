@@ -6,6 +6,6 @@ class TESTAGE extends BaseController
 {
     public function TESTAGE(): string
     {
-        return view('TESTAGE');
+        return view('header') . view('TESTAGE');
     }
 }

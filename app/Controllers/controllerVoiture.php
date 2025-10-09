@@ -8,19 +8,27 @@ class controllerVoiture extends BaseController
 {
     public function formVoiture(): string
     {
-        return view('header') . view('formVoiture');
+        $donnees = [
+            'titre' => 'Voiture'
+        ];
+
+        return view('header', $donnees) . view('formVoiture');
     }
 
     public function affichageVoiture(): string
     {
         $model = new modelVoiture();
-        $donnees['voitures'] = $model->findAll();
-        return view('affichageVoiture', $donnees);
+        $donnees = [
+            'titre' => 'Voiture',
+            'voitures' => $model->findAll()
+        ];
+        return view('header', $donnees) . view('affichageVoiture');
     }
 
     public function ajoutVoiture(): string
     {
-        $message = ['succes' => 'La voiture a été ajoutée avec succès !'];
+        $donnees = ['titre' => 'Voiture'];
+        $messages = ['succes' => 'La voiture a été ajoutée avec succès !'];
         $model = new modelVoiture();
 
         $data = [
@@ -39,6 +47,6 @@ class controllerVoiture extends BaseController
 
         $model->insert($data);
 
-        return view('header') . view('formVoiture') . view('messagesucces', $message);
+        return view('header', $donnees) . view('formVoiture') . view('messagesucces', $messages);
     }
 }

@@ -1,0 +1,584 @@
+CRITICAL - 2025-10-09 06:43:53 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:12 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:13 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:14 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:14 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:14 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:14 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:14 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:15 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:15 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:15 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\controllerVoiture.php on line 12
+[Method: GET, Route: Voiture/ajoutVoiture]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\controllerVoiture.php(12): view('header', 'Voiture')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->formVoiture()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:19 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\header.php on line 59.
+ 1 APPPATH\Views\header.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Views\\header.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:20 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:30 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:34 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:34 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:34 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:35 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:37 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:37 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:37 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:38 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:38 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:38 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:38 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:38 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:45:38 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:12 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:14 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:15 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:15 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:15 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:15 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:15 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:16 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:16 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:16 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:16 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:16 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:16 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:17 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:17 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:53 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:54 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:54 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:54 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:54 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:55 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:55 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:55 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:49:55 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\Acceuil.php on line 9
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\Acceuil.php(9): view('header', 'Acceuil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:59:27 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: /]
+in APPPATH\Controllers\Acceuil.php on line 11.
+ 1 APPPATH\Controllers\Acceuil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\Acceuil.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:59:31 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: /]
+in APPPATH\Controllers\Acceuil.php on line 11.
+ 1 APPPATH\Controllers\Acceuil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\Acceuil.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:59:31 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: /]
+in APPPATH\Controllers\Acceuil.php on line 11.
+ 1 APPPATH\Controllers\Acceuil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\Acceuil.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:59:31 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: /]
+in APPPATH\Controllers\Acceuil.php on line 11.
+ 1 APPPATH\Controllers\Acceuil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\Acceuil.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:59:31 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: /]
+in APPPATH\Controllers\Acceuil.php on line 11.
+ 1 APPPATH\Controllers\Acceuil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\Acceuil.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:59:32 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: /]
+in APPPATH\Controllers\Acceuil.php on line 11.
+ 1 APPPATH\Controllers\Acceuil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\Acceuil.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 06:59:32 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: /]
+in APPPATH\Controllers\Acceuil.php on line 11.
+ 1 APPPATH\Controllers\Acceuil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\Acceuil.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

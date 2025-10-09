@@ -24,7 +24,7 @@
      data-folder="<?= base_url('assets/images/Mclaren/720S/') ?>" 
      data-filename="car_{index}.webp"
      data-amount="32"
-     style="max-width:1350px; max-height:780px; position:relative; justify-content: center; touch-action:none; user-select:none; overflow:hidden;">
+     style="max-width:1024px; max-height:1024px; position:relative; justify-content: center; touch-action:none; user-select:none; overflow:hidden;">
   <img id="car-image"
        src="<?= base_url('assets/images/Mclaren/720S/car_1.webp') ?>"
        alt="Car 360"

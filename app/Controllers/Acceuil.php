@@ -5,7 +5,10 @@ class Acceuil extends BaseController
 {
     public function index(): string
     {
-        return view('header') . view('page_acceuil');
+        $donnees = [
+            'titre' => 'Acceuil'
+        ];
+        return view('header', $donnees) . view('page_acceuil');
     }
 }
 
