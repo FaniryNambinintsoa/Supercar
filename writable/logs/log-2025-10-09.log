@@ -582,3 +582,319 @@ in APPPATH\Controllers\Acceuil.php on line 11.
  5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 13:56:29 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\header.php on line 59.
+ 1 APPPATH\Views\header.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Views\\header.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 13:57:49 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: Acceuil/test]
+in APPPATH\Views\header.php on line 59.
+ 1 APPPATH\Views\header.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Views\\header.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(9): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->TESTAGE()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:47:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:47:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:51:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 15:52:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page_connexion.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_connexion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page_connexion', [], true)
+ 3 APPPATH\Controllers\Acceuil.php(12): view('page_connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Acceuil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceuil))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

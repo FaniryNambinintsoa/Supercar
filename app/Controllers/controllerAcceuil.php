@@ -1,7 +1,7 @@
 <?php 
 
 namespace App\Controllers;
-class Acceuil extends BaseController
+class controllerAcceuil extends BaseController
 {
     public function index(): string
     {

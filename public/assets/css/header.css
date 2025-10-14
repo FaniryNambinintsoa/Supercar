@@ -55,17 +55,6 @@ header {
   
 }
 
-.conteneur-lien {
-  background-image: url('../images/conteneur_lien.png');
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  position: absolute; 
-  left: 50%; 
-  transform: translateX(-50%); 
-  padding: 10px;
-}
-
 /* Arrière-plan du modal */
     .modal {
       display: none; /* caché par défaut */

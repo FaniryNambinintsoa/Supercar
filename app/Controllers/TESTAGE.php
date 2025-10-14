@@ -6,6 +6,9 @@ class TESTAGE extends BaseController
 {
     public function TESTAGE(): string
     {
-        return view('header') . view('TESTAGE');
+        $donnees = [
+            'titre' => 'Page de test'
+        ];
+        return view('header', $donnees) . view('TESTAGE');
     }
 }
