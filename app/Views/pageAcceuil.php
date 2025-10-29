@@ -8,7 +8,7 @@
 
 <main>
   <div style="diplay: flex; position: fixed; justify-content: center; right: 20px; bottom: 20px; padding: 10px; background-color: lightgreen; border: 2px solid #333; border-radius: 8px;">
-    <a href="<?= route_to('test') ?>">Test Page</a>
+    <a href="<?= url_to('TESTAGE::TESTAGE') ?>">Test Page</a>
   </div>
   
     <div>
@@ -22,6 +22,6 @@
     </div>
 </main>
 
-<script src="<?= base_url('assets/js/page_Acceuil.js') ?>"></script>
+<script src="<?= base_url('assets/js/pageAcceuil.js') ?>"></script>
 </body>
 </html>

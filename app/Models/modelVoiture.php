@@ -10,10 +10,9 @@ class modelVoiture extends Model
     protected $returnType = 'array';
 
     protected $allowedFields = ['voit_marq', 'voit_mdl', 
-                                'voit_prix', 'voit_img_lf', 
-                                'voit_img_rb', 'voit_img_int_l', 
-                                'voit_img_int_r', 'voit_moteur', 
-                                'voit_boite', 'voit_puiss', 
-                                'voit_annee'];
+                                'voit_prix', 'voit_moteur', 
+                                'voit_puiss', 'voit_0_100_kmh', 
+                                'voit_0_200_kmh', 'voit_vitesse_max', 
+                                'voit_chemin_dossier', 'voit_annee'];
 }
 ?>

@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Agbalumo&display=swap">
     <link rel="stylesheet" href="<?= base_url('assets/css/header.css') ?>">
   </head>
 <body>
 <header class="header">
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="<?= route_to('Acceuil') ?>">Acceuil</a>
+  <a href="<?= url_to('controllerAcceuil::index') ?>">Acceuil</a>
   <a href="javascript:void(0)" onclick="openNcloseVoitChoice()">Voiture</a>
     <div class="voitChoice">    
       <ul id="voitChoice">
-        <li><a href="<?= route_to('formVoiture') ?>">Ajout Voitures</a></li>
+        <li><a href="<?= url_to('controllerVoiture::formVoiture') ?>">Ajout Voitures</a></li>
         <li><a href="<?= route_to('affichageVoiture') ?>">Voir Voitures</a></li>
       </ul>
     </div>
@@ -54,9 +55,9 @@
   </div>
 
   <div style="position: absolute; left: 50%; transform: translateX(-50%); padding: 10px; top:10px;">
-    <img src="<?= base_url("assets/images/conteneur_lien.png") ?>" alt="conteneur" style="justify-content: center; width: 700px; height: auto; ">
-    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #c8d5ce;  font-size: 24px; font-style: italic; text-align: center;">
-    <?php echo $titre; ?>
+    <img src="<?= base_url("assets/images/conteneur_lien.png") ?>" alt="conteneur" style="justify-content: center; width: 620px; height: 95px; ">
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: rgba(0, 0, 0, 1);  font-size: 24px; font-style: italic; text-align: center; font-family: 'Agbalumo', sans-serif;">
+    <?= esc($titre); ?>
     </div>
   </div>
 
@@ -65,6 +66,6 @@
   </div>
 </div>
 </header>
-<script src="<?= base_url('assets/js/page_Acceuil.js') ?>"></script>
+<script src="<?= base_url('assets/js/pageAcceuil.js') ?>"></script>
 </body>
 </html>

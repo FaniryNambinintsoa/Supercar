@@ -22,7 +22,7 @@ class controllerVoiture extends BaseController
             'titre' => 'Voiture',
             'voitures' => $model->findAll()
         ];
-        return view('header', $donnees) . view('affichageVoiture');
+        return view('affichageVoiture', $donnees);
     }
 
     public function ajoutVoiture(): string

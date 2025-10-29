@@ -175,3 +175,18 @@
     gap: 20px;
     padding: 20px;
 }
+
+.cont-logo-marq {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 16px;
+    overflow: scroll;
+}
+
+.cont-logo-ovrfl {
+    background-color: #f4f0f0;
+    background-image: -webkit-linear-gradient(99deg, rgb(171, 163, 163) 11.0526%, rgb(228, 228, 228) 30.5263%, rgb(255, 249, 249) 56.8421%, rgb(192, 188, 188) 85.7895%);
+    border-radius: 23px;
+    min-width: 150px;
+    max-width: 150px;
+}
