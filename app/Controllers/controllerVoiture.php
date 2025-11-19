@@ -47,6 +47,21 @@ class controllerVoiture extends BaseController
 
         $model->insert($data);
 
-        return view('header', $donnees) . view('formVoiture') . view('messagesucces', $messages);
+        return view('header', $donnees) . view('formVoiture') . view('messageSucces', $messages);
+    }
+
+    public function vitrineVoiture(): string
+    {
+        $donnees = [
+            'titre' => 'Voiture'
+        ];
+        return view('vitrineVoiture', $donnees);
+    }
+    public function detailVoiture(): string
+    {
+        $donnees = [
+            'titre' => 'Voiture'
+        ];
+        return view('detailVoiture', $donnees);
     }
 }

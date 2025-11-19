@@ -1,0 +1,504 @@
+CRITICAL - 2025-11-03 08:39:02 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:39:23 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:39:24 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:39:24 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:39:24 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:40:48 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:40:49 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:40:49 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:40:49 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:40:50 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:40:50 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:40:53 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:39 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:40 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:40 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:40 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:40 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:40 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:40 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:41 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:41 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:41 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:41 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:41 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 08:42:41 --> ErrorException: Undefined variable $espace
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espace', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:07:15 --> ErrorException: Undefined variable $espac
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 18.
+ 1 APPPATH\Views\pageConnexion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $espac', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(21): view('pageConnexion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:37:32 --> ErrorException: Undefined variable $valeur
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 22.
+ 1 APPPATH\Views\pageConnexion.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valeur', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(19): view('pageConnexion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:39:21 --> ErrorException: Undefined variable $valeur
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 22.
+ 1 APPPATH\Views\pageConnexion.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valeur', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(20): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:39:26 --> ErrorException: Undefined variable $valeur
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 22.
+ 1 APPPATH\Views\pageConnexion.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valeur', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(20): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:39:26 --> ErrorException: Undefined variable $valeur
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 22.
+ 1 APPPATH\Views\pageConnexion.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valeur', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(20): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:39:26 --> ErrorException: Undefined variable $valeur
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 22.
+ 1 APPPATH\Views\pageConnexion.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valeur', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(20): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:39:27 --> ErrorException: Undefined variable $valeur
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 22.
+ 1 APPPATH\Views\pageConnexion.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valeur', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(20): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:39:27 --> ErrorException: Undefined variable $valeur
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 22.
+ 1 APPPATH\Views\pageConnexion.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valeur', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(20): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:39:27 --> ErrorException: Undefined variable $valeur
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 22.
+ 1 APPPATH\Views\pageConnexion.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valeur', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(20): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:39:27 --> ErrorException: Undefined variable $valeur
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 22.
+ 1 APPPATH\Views\pageConnexion.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valeur', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(20): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-03 11:40:26 --> ErrorException: Undefined variable $valeur
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 22.
+ 1 APPPATH\Views\pageConnexion.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valeur', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(20): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

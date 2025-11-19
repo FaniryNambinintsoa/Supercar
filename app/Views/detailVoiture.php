@@ -69,23 +69,23 @@
                     </tr>
                     <tr class="border border-black border-solid divide-black divide-x">
                         <td class="">Moteur:</td>
-                        <td>datahe</td>
+                        <td>(data)</td>
                     </tr>
                     <tr class="border border-black border-solid divide-black divide-x">
                         <td class="">Puissance:</td>
-                        <td>datagerge</td>
+                        <td>(data)</td>
                     </tr>
                     <tr class="border border-black border-solid divide-black divide-x">
                         <td class="">0-100 km/h:</td>
-                        <td>data</td>
+                        <td>(data)</td>
                     </tr>
                     <tr class="border border-black border-solid divide-black divide-x">
                         <td class="">0-200 km/h:</td>
-                        <td>data</td>
+                        <td>(data)</td>
                     </tr>
                     <tr class="border border-black border-solid divide-black divide-x">
                         <td class="">Vitesse max:</td>
-                        <td>data</td>
+                        <td>(data)</td>
                     </tr>
                 </table>
             </div>

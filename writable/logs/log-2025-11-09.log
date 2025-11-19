@@ -1,0 +1,540 @@
+CRITICAL - 2025-11-09 14:34:14 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\controllerClient.php on line 22
+[Method: POST, Route: Inscription]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\controllerClient.php(22): view('pageInscription', 'test')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:36:20 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\controllerClient.php on line 9
+[Method: GET, Route: Inscription]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\controllerClient.php(9): view('pageInscription', '')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->formInscription()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:36:23 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\Supercar\app\Controllers\controllerClient.php on line 9
+[Method: GET, Route: Inscription]
+in SYSTEMPATH\Common.php on line 1155.
+ 1 APPPATH\Controllers\controllerClient.php(9): view('pageInscription', '')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->formInscription()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:37:57 --> ErrorException: Undefined variable $message
+[Method: GET, Route: Inscription]
+in APPPATH\Controllers\controllerClient.php on line 10.
+ 1 APPPATH\Controllers\controllerClient.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerClient.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->formInscription()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:39:49 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:41:14 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:44:38 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:49:10 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(29): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:49:22 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(29): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:54:43 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:54:53 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:55:15 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:55:39 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:57:29 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:57:39 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 14:58:23 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:00:47 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:01:27 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:03:23 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:04:31 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:06:13 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:06:22 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:08:19 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:10:57 --> ErrorException: Undefined variable $client
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 17.
+ 1 APPPATH\Views\pageConnexion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(22): view('pageConnexion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:11:03 --> ErrorException: Undefined variable $client
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\pageConnexion.php on line 17.
+ 1 APPPATH\Views\pageConnexion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\TESTAGE.php(22): view('pageConnexion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:11:17 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:25:17 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: Inscription]
+in APPPATH\Models\modelClient.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\Supercar\\app\\Models\\modelClient.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modelClient')
+ 4 APPPATH\Controllers\controllerClient.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modelClient')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:27:22 --> ErrorException: Undefined variable $client
+[Method: POST, Route: Inscription]
+in APPPATH\Views\pageConnexion.php on line 17.
+ 1 APPPATH\Views\pageConnexion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\controllerClient.php(41): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:29:45 --> ErrorException: Undefined variable $client
+[Method: POST, Route: Inscription]
+in APPPATH\Views\pageConnexion.php on line 17.
+ 1 APPPATH\Views\pageConnexion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\controllerClient.php(41): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:33:12 --> ErrorException: Undefined variable $client
+[Method: POST, Route: Inscription]
+in APPPATH\Views\pageConnexion.php on line 17.
+ 1 APPPATH\Views\pageConnexion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\controllerClient.php(41): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 15:33:47 --> ErrorException: Undefined variable $client
+[Method: POST, Route: Inscription]
+in APPPATH\Views\pageConnexion.php on line 17.
+ 1 APPPATH\Views\pageConnexion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 5 APPPATH\Controllers\controllerClient.php(41): view('pageConnexion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerClient->inscription()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerClient))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

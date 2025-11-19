@@ -48,15 +48,19 @@
         <hr>
         <br>
         <div class="cont-voiture-gbl">
-            <div class="cont-style">
-                <div class="cont-voiture">
-                    <img src="<?= base_url('assets/uploads/Mclaren/720S/car_3.webp') ?>" class="img-voit">
+
+            <a href="<?= url_to('controllerVoiture::detailVoiture') ?>">
+                <div class="cont-style">
+                    <div class="cont-voiture">
+                        <img src="<?= base_url('assets/uploads/Mclaren/720S/car_3.webp') ?>" class="img-voit">
+                    </div>
+                    <div>
+                        <h1 class="mrq-mdl">Mclaren 720S</h1>
+                        <button class="boutton-act">Specification</button>
+                    </div>
                 </div>
-                <div>
-                    <h1 class="mrq-mdl">Mclaren 720S</h1>
-                    <button class="boutton-act">Specification</button>
-                </div>
-            </div>
+            </a>
+
             <div class="cont-style">
                 <div class="cont-voiture">
                     <img src="<?= base_url('assets/uploads/Mclaren/720S/car_3.webp') ?>" class="img-voit">

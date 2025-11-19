@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 242, 242);
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(3px);
+
+    /* optionnel : pour rendre l'image un peu transparente */
+}
+
+.conteneur-gbl {
+    position: relative;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(170, 155, 155);
+    width: 510px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.37);
+    align-items: center;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 390px;
+    height: 36px;
+    font-size: 17px;
+}
+
+.cont-pp {
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-en-tt {
+    font-size: 30px;
+    margin: 15px;
+}
+
+.cont-champ {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 17px;
+}
+
+.form-control::placeholder {
+    color: #b2b2b2;
+    padding-left: 8px;
+}
+
+
+.btn-connex {
+    color: #ffffff;
+    background-color: #27a76f;
+    width: 175px;
+    height: 45px;
+    font-size: 17px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.cont-insc {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.cont-ch-esp {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -411px;
+}
+
+.ch-esp-champ {
+    background-color: rgba(226, 226, 226, 0.75);
+    width: 370px;
+    display: flex;
+    border-radius: 60px;
+    height: 80px;
+}
+
+
+
+.cont-boutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+

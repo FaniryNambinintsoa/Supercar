@@ -1,7 +1,6 @@
 .label-mrq {
-    margin-left: 100px;
+    
     font-size: 30px;
-    padding-top: 30px;
 }
 
 .breadcrumb-triangle {
@@ -52,8 +51,8 @@ hr {
 }
 
 .cont-pp {
-    margin-left: 100px;
-    margin-right: 100px;
+    
+    
     margin-top: 33px;
     display: flex;
     flex-direction: row;
@@ -107,8 +106,8 @@ br {
 }
 
 .cont-voiture-gbl {
-    margin-left: 100px;
-    margin-right: 100px;
+    
+    
     display: grid;
     margin-top: 210px;
     grid-gap: 50px;

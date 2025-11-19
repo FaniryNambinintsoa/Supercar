@@ -1,14 +1,17 @@
+<?= $this->extend('miseEnPage') ?>
+<?= $this->section('content') ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@1.9.3/dist/tailwind.min.css">
 </head>
 <body>
 
 <main>
   <div style="diplay: flex; position: fixed; justify-content: center; right: 20px; bottom: 20px; padding: 10px; background-color: lightgreen; border: 2px solid #333; border-radius: 8px;">
-    <a href="<?= url_to('TESTAGE::TESTAGE') ?>">Test Page</a>
+    <a href="<?= url_to('TESTAGE::pageTest') ?>">Test Page</a>
   </div>
   
     <div>
@@ -25,3 +28,4 @@
 <script src="<?= base_url('assets/js/pageAcceuil.js') ?>"></script>
 </body>
 </html>
+<?= $this->endSection() ?>

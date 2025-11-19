@@ -7,10 +7,16 @@ class controllerAcceuil extends BaseController
 {
     public function index(): string
     {
+       
+        return view('pageBienvenue');
+    }
+    
+    public function acceuil(): string 
+    {
         $donnees = [
             'titre' => 'Acceuil'
         ];
-        return view('header', $donnees) . view('pageAcceuil');
+        return view('pageAcceuil', $donnees);
     }
 }
 
