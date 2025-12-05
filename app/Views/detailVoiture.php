@@ -22,13 +22,14 @@
                 <li aria-current="page">Consulting</li>
             </ol>
         </div>
+        
         <div class="conteneur-pp-1">
-            <div id="car-360" data-folder="<?= base_url('assets/uploads/Mclaren/720S/') ?>" data-filename="car_{index}.webp" data-amount="32" class="conteneur-img-360 conteneur-voiture image-360 relative ">
-                <img id="car-image" src="<?= base_url('assets/uploads/Mclaren/720S/car_1.webp') ?>" class="img-voiture" alt="Car 360">
+            <div id="car-360" data-folder="<?= base_url($voiture['voit_chemin_dossier'] . '/') ?>" data-filename="car_{index}.webp" data-amount="32" class="conteneur-img-360 conteneur-voiture image-360 relative ">
+                <img id="car-image" src="<?= base_url($voiture['voit_chemin_dossier'] . '/car_1.webp') ?>" class="img-voiture" alt="Car 360">
             </div>
             <div class="conteneur-action-voiture">
                 <div class="cont-logo">
-                    <img src="<?= base_url('assets/uploads/Mclaren/logo/car_logo.svg') ?>" class="img-logo w-10/12" alt="">
+                    <img src="<?= base_url($voiture['voit_chemin_dossier'] . '/car_logo.svg') ?>" class="img-logo" alt="">
                 </div>
                 <div class="cont-p-mdl">
                     <p class="p-mdl">720S <br> Prix: 3 000 000 RS</p>
@@ -51,14 +52,14 @@
         <div class="conteneur-gbl-2">
             <div class="conteneur-img-dfa ">
                 <div class="conteneur-img-d">
-                    <img class="img-d" src="<?= base_url('assets/uploads/Mclaren/720S/car_9.webp') ?>" alt="">
+                    <img class="img-d" src="<?= base_url($voiture['voit_chemin_dossier'] . '/car_9.webp') ?>" alt="">
                 </div>
                 <div class="conteneur-img-fa"> 
                     <div class="conteneur-img-f">
-                        <img class="img-f" src="<?= base_url('assets/uploads/Mclaren/720S/car_1.webp') ?>" alt="">
+                        <img class="img-f" src="<?= base_url($voiture['voit_chemin_dossier'] . '/car_1.webp') ?>" alt="">
                     </div>
                     <div class="conteneur-img-a">
-                        <img class="img-a" src="<?= base_url('assets/uploads/Mclaren/720S/car_17.webp') ?>" alt="">
+                        <img class="img-a" src="<?= base_url($voiture['voit_chemin_dossier'] . '/car_17.webp') ?>" alt="">
                     </div>
                 </div>
             </div>
@@ -94,16 +95,16 @@
             <h1>AUTRES MARQUES</h1>
         </div>
         <div class="cont-logo-marq">
+            <?php foreach($marques as $marque): ?>
             <div class="cont-logo-ovrfl">
-                <a href=""><img src="<?= base_url('assets/uploads/Mclaren/logo/car_logo.svg') ?>" style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;grid-template-rows:100px;grid-gap:0px;" class="p-2"/></a>
+                <a href="<?= site_url('/Voiture/Liste/' . $marque['voit_marq']) ?>"><img src="<?= base_url($marque['voit_chemin_dossier'] . '/car_logo.svg') ?>" style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;grid-template-rows:100px;grid-gap:0px;" class="p-2"/></a>
             </div>
-            <div class="cont-logo-ovrfl">
-                <a href=""><img src="<?= base_url('assets/uploads/Mclaren/logo/car_logo.svg') ?>" style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;grid-template-rows:100px;grid-gap:0px;" class="p-2"/></a>
-            </div>
+            <?php endforeach; ?>
         </div>
         <script src="<?=base_url('assets/js/detailVoiture.js')?>"></script>
     </body>
 </html>
+
 
 <?= $this->endSection() ?>
 

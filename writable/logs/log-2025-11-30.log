@@ -1,0 +1,547 @@
+CRITICAL - 2025-11-30 09:35:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<img src="
+[Method: GET, Route: Voiture/%3Cimg%20src=]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('Voiture/<img src=')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('Voiture/<img src=')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 09:35:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<img src="
+[Method: GET, Route: Voiture/%3Cimg%20src=]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('Voiture/<img src=')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('Voiture/<img src=')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 10:35:36 --> Error: Class "App\Models\modelVoiture" not found
+[Method: GET, Route: Voiture/ListeVoiture]
+in APPPATH\Controllers\controllerVoiture.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 10:36:25 --> Error: Class "App\Models\modelVoiture" not found
+[Method: GET, Route: Voiture/ListeVoiture]
+in APPPATH\Controllers\controllerVoiture.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 12:07:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout.php"
+[Method: GET, Route: Voiture/ajoutVoiture]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/layout.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/ajoutVoiture', [], true)
+ 4 APPPATH\Controllers\controllerVoiture.php(148): view('admin/ajoutVoiture')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->formVoiture()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 12:13:36 --> Error: Class "App\Models\modelVoiture" not found
+[Method: POST, Route: Voiture/ajoutVoiture]
+in APPPATH\Controllers\controllerVoiture.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->ajoutVoiture()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 12:19:40 --> Error: Class "App\Models\modelVoiture" not found
+[Method: POST, Route: Voiture/ajoutVoiture]
+in APPPATH\Controllers\controllerVoiture.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->ajoutVoiture()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 12:20:14 --> Error: Class "App\Models\modelVoiture" not found
+[Method: POST, Route: Voiture/ajoutVoiture]
+in APPPATH\Controllers\controllerVoiture.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->ajoutVoiture()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 12:26:26 --> Error: Class "App\Models\modelVoiture" not found
+[Method: POST, Route: Voiture/ajoutUneVoiture]
+in APPPATH\Controllers\controllerVoiture.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->ajoutVoiture()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-30 12:29:05 --> mysqli_sql_exception: Champ 'voit_chemain_dossier' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `vo...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vo...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vo...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vo...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerVoiture.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerVoiture->ajoutVoiture()
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-11-30 12:59:10 --> ParseError: syntax error, unexpected token "echo", expecting "," or ";"
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\TESTAGE.php on line 96.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 3 APPPATH\Controllers\TESTAGE.php(26): view('TESTAGE', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 12:59:24 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\TESTAGE.php on line 96.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 3 APPPATH\Controllers\TESTAGE.php(26): view('TESTAGE', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 12:59:26 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: TESTAGE]
+in APPPATH\Views\TESTAGE.php on line 96.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('TESTAGE', [], true)
+ 3 APPPATH\Controllers\TESTAGE.php(26): view('TESTAGE', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TESTAGE->pageTest()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TESTAGE))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 14:58:13 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::vitrineVoiture
+[Method: GET, Route: Voiture/ListeVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'vitrineVoiture')
+ 2 APPPATH\Views\affichageVoiture.php(27): url_to('controllerVoiture::vitrineVoiture', 'McLaren')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 14:59:28 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::vitrineVoiture
+[Method: GET, Route: Voiture/ListeVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'vitrineVoiture')
+ 2 APPPATH\Views\affichageVoiture.php(27): url_to('controllerVoiture::vitrineVoiture', 'McLaren')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 14:59:30 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::vitrineVoiture
+[Method: GET, Route: Voiture/ListeVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'vitrineVoiture')
+ 2 APPPATH\Views\affichageVoiture.php(27): url_to('controllerVoiture::vitrineVoiture', 'McLaren')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 14:59:30 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::vitrineVoiture
+[Method: GET, Route: Voiture/ListeVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'vitrineVoiture')
+ 2 APPPATH\Views\affichageVoiture.php(27): url_to('controllerVoiture::vitrineVoiture', 'McLaren')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 14:59:31 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::vitrineVoiture
+[Method: GET, Route: Voiture/ListeVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'vitrineVoiture')
+ 2 APPPATH\Views\affichageVoiture.php(27): url_to('controllerVoiture::vitrineVoiture', 'McLaren')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 14:59:31 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::vitrineVoiture
+[Method: GET, Route: Voiture/ListeVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'vitrineVoiture')
+ 2 APPPATH\Views\affichageVoiture.php(27): url_to('controllerVoiture::vitrineVoiture', 'McLaren')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 14:59:34 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::vitrineVoiture
+[Method: GET, Route: Voiture/ListeVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'vitrineVoiture')
+ 2 APPPATH\Views\affichageVoiture.php(27): url_to('controllerVoiture::vitrineVoiture', 'McLaren')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 14:59:41 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::vitrineVoiture
+[Method: GET, Route: Voiture/ListeVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'vitrineVoiture')
+ 2 APPPATH\Views\affichageVoiture.php(27): url_to('controllerVoiture::vitrineVoiture', 'McLaren')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 14:59:42 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::vitrineVoiture
+[Method: GET, Route: Voiture/ListeVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'vitrineVoiture')
+ 2 APPPATH\Views\affichageVoiture.php(27): url_to('controllerVoiture::vitrineVoiture', 'McLaren')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 14:59:42 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::vitrineVoiture
+[Method: GET, Route: Voiture/ListeVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'vitrineVoiture')
+ 2 APPPATH\Views\affichageVoiture.php(27): url_to('controllerVoiture::vitrineVoiture', 'McLaren')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:00:45 --> ErrorException: Undefined variable $marque
+[Method: GET, Route: Voiture/ListeVoiture]
+in APPPATH\Views\affichageVoiture.php on line 27.
+ 1 APPPATH\Views\affichageVoiture.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marque', 'C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:00:45 --> ErrorException: Undefined variable $marque
+[Method: GET, Route: Voiture/ListeVoiture]
+in APPPATH\Views\affichageVoiture.php on line 27.
+ 1 APPPATH\Views\affichageVoiture.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marque', 'C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:00:46 --> ErrorException: Undefined variable $marque
+[Method: GET, Route: Voiture/ListeVoiture]
+in APPPATH\Views\affichageVoiture.php on line 27.
+ 1 APPPATH\Views\affichageVoiture.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marque', 'C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\affichageVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('affichageVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(17): view('affichageVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->affichageVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:08:23 --> ErrorException: Undefined variable $voiture
+[Method: GET, Route: Voiture/Liste/McLaren]
+in APPPATH\Views\vitrineVoiture.php on line 29.
+ 1 APPPATH\Views\vitrineVoiture.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voiture', 'C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('McLaren')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:08:26 --> ErrorException: Undefined variable $voiture
+[Method: GET, Route: Voiture/Liste/Audi]
+in APPPATH\Views\vitrineVoiture.php on line 29.
+ 1 APPPATH\Views\vitrineVoiture.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voiture', 'C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('Audi')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:10:00 --> ErrorException: Undefined variable $voiture
+[Method: GET, Route: Voiture/Liste/McLaren]
+in APPPATH\Views\vitrineVoiture.php on line 29.
+ 1 APPPATH\Views\vitrineVoiture.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voiture', 'C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('McLaren')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:13:40 --> ErrorException: Undefined variable $voiture
+[Method: GET, Route: Voiture/Liste/McLaren]
+in APPPATH\Views\vitrineVoiture.php on line 29.
+ 1 APPPATH\Views\vitrineVoiture.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voiture', 'C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('McLaren')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:13:43 --> ErrorException: Undefined variable $voiture
+[Method: GET, Route: Voiture/Liste/McLaren]
+in APPPATH\Views\vitrineVoiture.php on line 29.
+ 1 APPPATH\Views\vitrineVoiture.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voiture', 'C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('McLaren')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:17:34 --> ErrorException: Undefined variable $voiture
+[Method: GET, Route: Voiture/Liste/McLaren]
+in APPPATH\Views\vitrineVoiture.php on line 29.
+ 1 APPPATH\Views\vitrineVoiture.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voiture', 'C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('McLaren')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:27:08 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::detailVoiture
+[Method: GET, Route: Voiture/Liste/detailVoiture]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'detailVoiture')
+ 2 APPPATH\Views\vitrineVoiture.php(54): url_to('controllerVoiture::detailVoiture')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('detailVoiture')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:27:10 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::detailVoiture
+[Method: GET, Route: Voiture/Liste/McLaren]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'detailVoiture')
+ 2 APPPATH\Views\vitrineVoiture.php(54): url_to('controllerVoiture::detailVoiture')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('McLaren')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:27:13 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::detailVoiture
+[Method: GET, Route: Voiture/Liste/McLaren]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'detailVoiture')
+ 2 APPPATH\Views\vitrineVoiture.php(54): url_to('controllerVoiture::detailVoiture')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('McLaren')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:37:20 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::detailVoiture
+[Method: GET, Route: Voiture/Liste/McLaren]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'detailVoiture')
+ 2 APPPATH\Views\vitrineVoiture.php(54): url_to('controllerVoiture::detailVoiture')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('McLaren')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:37:21 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerVoiture::detailVoiture
+[Method: GET, Route: Voiture/Liste/McLaren]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerVoiture', 'detailVoiture')
+ 2 APPPATH\Views\vitrineVoiture.php(54): url_to('controllerVoiture::detailVoiture')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\vitrineVoiture.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('vitrineVoiture', [], true)
+ 6 APPPATH\Controllers\controllerVoiture.php(161): view('vitrineVoiture', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->vitrineVoiture('McLaren')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:43:51 --> ErrorException: Undefined variable $voiture
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Views\detailVoiture.php on line 26.
+ 1 APPPATH\Views\detailVoiture.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voiture', 'C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('detailVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(173): view('detailVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:43:57 --> ErrorException: Undefined variable $voiture
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Views\detailVoiture.php on line 26.
+ 1 APPPATH\Views\detailVoiture.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voiture', 'C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('detailVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(173): view('detailVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:44:21 --> ErrorException: Undefined variable $voiture
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Views\detailVoiture.php on line 26.
+ 1 APPPATH\Views\detailVoiture.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voiture', 'C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('detailVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(173): view('detailVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-30 15:44:25 --> ErrorException: Undefined variable $voiture
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Views\detailVoiture.php on line 26.
+ 1 APPPATH\Views\detailVoiture.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $voiture', 'C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('detailVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(173): view('detailVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

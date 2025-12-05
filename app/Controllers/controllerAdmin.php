@@ -5,7 +5,7 @@ class controllerAdmin extends BaseController
 {
 public function index(): string
 {
-    return view('admin/dashboard/index');
+    return view('admin/index');
 }
 }
 ?>

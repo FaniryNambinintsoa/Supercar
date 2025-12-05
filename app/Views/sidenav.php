@@ -13,22 +13,23 @@
 <div id="mySidenav" class="sidenav">
 
  
-        <?php if (isset($_SESSION['prenom']) && isset($_SESSION['nom'])) {
+        <?php if (session()->get('status_connex')) {
             // Récupère les initiales de l'utilisateur
-            $initiales = strtoupper(substr($_SESSION['prenom'], 0, 1) . substr($_SESSION['nom'], 0, 1));
+            $initiales = strtoupper(substr(session()->get('prenom'), 0, 1) . substr(session()->get('nom'), 0, 1));
                 ?>
-        <a href="#" style="text-decoration: none; color:#ddd;">
-            <div style="display: flex; align-items: center;">
+        
+            <div class="cont-session">
                   <!-- Affiche les initiales de l'utilisateur -->
+                <a href="#" style="text-decoration: none; color:#ddd;">
                   <div style="background-color: #0bbe38; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 10px;">
                       <?= $initiales; ?>
                   </div>
-          </a>
-                <div style="display: flex; flex-direction: column;">
+                </a>
+                <div style="display: flex; flex-direction: column; padding: 15px;">
                     <!-- Affiche le prénom de l'utilisateur -->
-                    <span class="nom">Bonjour, <?= htmlspecialchars($_SESSION['nom']) . " " . htmlspecialchars($_SESSION['prenom']); ?></span>
+                    <span class="nom">Bonjour, <?= htmlspecialchars(session()->get('nom')) . " " . htmlspecialchars(session()->get('prenom')); ?></span>
                     <!-- Lien pour se déconnecter -->
-                        <a href="/supercar_project/Pages/connexion/deconnection.php" style="font-size: 12px; color: red; text-decoration: none; margin-top: 2px;">Se déconnecter</a>
+                        <a href="/deconnexion" style="font-size: 12px; color: red; text-decoration: none; margin-top: 2px;">Se déconnecter</a>
                 </div>
             </div>
         <?php } else { ?>
@@ -43,7 +44,7 @@
 
   <div class="nav-n-contact">
       <div>
-          <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerAcceuil::index') ?>"><span><i class="fa-solid fa-house"></i></span><span style="margin-left: 10px;"> Acceuil</span></a></div>
+          <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerAcceuil::acceuil') ?>"><span><i class="fa-solid fa-house"></i></span><span style="margin-left: 10px;"> Acceuil</span></a></div>
           <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerVoiture::affichageVoiture') ?>"><span><i class="fa-solid fa-car-on"></i></span><span style="margin-left: 10px;"> Voiture</span></a></div>
           <!-- <a href="javascript:void(0)" onclick="openNcloseVoitChoice()">Voiture</a>
             <div class="voitChoice">
@@ -52,10 +53,10 @@
                 <li><a href="<?= route_to('affichageVoiture') ?>">Voir Voitures</a></li>
               </ul>
             </div> -->
-          <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerAcceuil::index') ?>"><span><i class="fa-solid fa-hand-holding-medical"></i></span><span style="margin-left: 10px;"> Services</span></a></div>
+          <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerService::service') ?>"><span><i class="fa-solid fa-hand-holding-medical"></i></span><span style="margin-left: 10px;"> Services</span></a></div>
       </div>
       <div>
-          <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerContact::pageContact') ?>"><span><i class="fa-solid fa-address-book"></i></span><span style="margin-left: 10px;">Contactez-nous</span></a></div>
+          <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerContact::contact') ?>"><span><i class="fa-solid fa-address-book"></i></span><span style="margin-left: 10px;">Contactez-nous</span></a></div>
       </div>
   </div>
 </div>

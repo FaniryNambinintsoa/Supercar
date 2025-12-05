@@ -26,11 +26,13 @@
         <hr>
         <div class="cont-pp">
             <div class="cont-logo">
-                <img src="<?= base_url('assets/uploads/Mclaren/logo/car_logo.svg') ?>">
+                <?php foreach($voitures as $voiture): ?>
+                <img src="<?= base_url($voiture['voit_chemin_dossier'] . '/car_logo.svg') ?>">
+                <?php endforeach; ?>
             </div>
             <div class="cont-text">
                 <div class="mrq-txt">
-                    <h1>Mclaren</h1>
+                    <h1><?= esc($marque) ?></h1>
                 </div>
                 <div class="nbr-mdl">
                     <div class="cont-tout">
@@ -48,55 +50,21 @@
         <hr>
         <br>
         <div class="cont-voiture-gbl">
-
-            <a href="<?= url_to('controllerVoiture::detailVoiture') ?>">
+         <?php foreach($voitures as $voiture): ?>
+            <a href="<?= url_to('controllerVoiture::detailVoiture', $voiture['voit_id']) ?>">
                 <div class="cont-style">
+                    
                     <div class="cont-voiture">
-                        <img src="<?= base_url('assets/uploads/Mclaren/720S/car_3.webp') ?>" class="img-voit">
+                        <img src="<?= base_url($voiture['voit_chemin_dossier'] . '/car_3.webp') ?>" class="img-voit">
                     </div>
                     <div>
-                        <h1 class="mrq-mdl">Mclaren 720S</h1>
+                        <h1 class="mrq-mdl"><?= esc($marque . ' ' . $voiture['voit_mdl']) ?></h1>
                         <button class="boutton-act">Specification</button>
                     </div>
+                    
+                    <?php endforeach; ?>
                 </div>
             </a>
-
-            <div class="cont-style">
-                <div class="cont-voiture">
-                    <img src="<?= base_url('assets/uploads/Mclaren/720S/car_3.webp') ?>" class="img-voit">
-                </div>
-                <div>
-                    <h1 class="mrq-mdl">Mclaren 720S</h1>
-                    <button class="boutton-act">Specification</button>
-                </div>
-            </div>
-            <div class="cont-style">
-                <div class="cont-voiture">
-                    <img src="<?= base_url('assets/uploads/Mclaren/720S/car_3.webp') ?>" class="img-voit">
-                </div>
-                <div>
-                    <h1 class="mrq-mdl">Mclaren 720S</h1>
-                    <button class="boutton-act">Specification</button>
-                </div>
-            </div>
-            <div class="cont-style">
-                <div class="cont-voiture">
-                    <img src="<?= base_url('assets/uploads/Mclaren/720S/car_3.webp') ?>" class="img-voit">
-                </div>
-                <div>
-                    <h1 class="mrq-mdl">Mclaren 720S</h1>
-                    <button class="boutton-act">Specification</button>
-                </div>
-            </div>
-            <div class="cont-style">
-                <div class="cont-voiture">
-                    <img src="<?= base_url('assets/uploads/Mclaren/720S/car_3.webp') ?>" class="img-voit">
-                </div>
-                <div>
-                    <h1 class="mrq-mdl">Mclaren 720S</h1>
-                    <button class="boutton-act">Specification</button>
-                </div>
-            </div>
         </div>
     </body>
 </html>

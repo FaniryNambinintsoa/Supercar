@@ -2,13 +2,13 @@
 namespace App\Controllers;
 
 class controllerContact extends BaseController {
-    public function pageContact() {
+    public function contact() {
 
         $donnees = [
             'titre' => 'Contactez-nous'
         ];
         
-        return view('contact', $donnees);
+        return view('pageContact', $donnees);
     }
 }
 

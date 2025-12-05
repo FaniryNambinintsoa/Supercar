@@ -1,46 +1,62 @@
 <?php
 namespace App\Controllers;
-use App\Models\modelClient;
+
+use App\Models\modelUser;
+
 class controllerClient extends BaseController
 {
-    public function formInscription(): string
+    public function formInscription()
     {
-       
-        
-        return view('pageInscription'); 
-    }
-    
-   public function inscription()
-{
-    $messages = ['succes' => 'Compte creer avec succès !'];
-    $mdpClair = $this->request->getPost('password');
-    $mdpConf  = $this->request->getPost('confpassword');
-    
-    if ($mdpClair !== $mdpConf) {
-
-        $donnees = [
-            'message' => 'Les mots de passe ne correspondent pas ❌'
-        ];
-
         return view('pageInscription');
     }
 
-    $hash = password_hash($mdpClair, PASSWORD_DEFAULT);
+    public function inscription()
+    {
+        $model = new modelUser();
 
-    $model = new modelClient();
-    $data = [
-        'us_nom'    => $this->request->getPost('nom'),
-        'us_prenom' => $this->request->getPost('prenom'),
-        'us_mail'   => $this->request->getPost('email'),
-        'us_mdp'    => $hash
-    ];
-    $model->insert($data);
+        $nom       = $this->request->getPost('nom');
+        $prenom    = $this->request->getPost('prenom');
+        $email     = $this->request->getPost('email');
+        $mdp       = $this->request->getPost('password');
+        $mdpConf   = $this->request->getPost('confpassword');
+        $role      = $this->request->getPost('role');
 
-   $donnees = ['admin' => 'Admin',
-                    'client' => 'Espace client'];
-        
-        return view('pageConnexion', $donnees) . view('messageSucces', $messages);
+        // Vérif mot de passe
+        if ($mdp !== $mdpConf) {
+            return view('pageInscription', [
+                'message' => 'Les mots de passe ne correspondent pas',
+                'type'    => 'error'
+            ]);
+        }
+
+        // Vérif si email existe déjà
+        $existe = $model->groupStart()->where(['us_mail'=> $email,
+        'us_role' => $role])->groupEnd()->first();
+
+        if ($existe) {
+            return view('pageInscription', [
+                'message' => 'Un compte avec cet email existe déjà',
+                'type'    => 'error'
+            ]);
+        }
+
+        // OK → insertion
+        $hash = password_hash($mdp, PASSWORD_DEFAULT);
+
+        $model->insert([
+            'us_nom'    => $nom,
+            'us_prenom' => $prenom,
+            'us_mail'   => $email,
+            'us_mdp'    => $hash,
+            'us_role'   => $role
+        ]);
+
+        return view('pageConnexion', [
+            'message' => 'Inscription réussie, Vous pouvez maintenant vous connecter.',
+            'type'    => 'success'
+        ]);
+    }
 }
 
-}
+
 ?>

@@ -1,0 +1,72 @@
+CRITICAL - 2025-12-02 05:08:02 --> Error: Class "App\Controllers\modelClient" not found
+[Method: POST, Route: verifClient]
+in APPPATH\Controllers\controllerConnexion.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->client()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:14:10 --> Error: Class "App\Controllers\modelClient" not found
+[Method: POST, Route: verifClient]
+in APPPATH\Controllers\controllerConnexion.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->client()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:14:18 --> Error: Class "App\Controllers\modelClient" not found
+[Method: POST, Route: verifClient]
+in APPPATH\Controllers\controllerConnexion.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->client()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:21:12 --> Error: Class "App\Controllers\modelClient" not found
+[Method: POST, Route: verifClient]
+in APPPATH\Controllers\controllerConnexion.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->client()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:21:32 --> Error: Class "App\Controllers\modelClient" not found
+[Method: POST, Route: verifClient]
+in APPPATH\Controllers\controllerConnexion.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->client()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:31:44 --> Error: Class "App\Controllers\modelClient" not found
+[Method: POST, Route: verifClient]
+in APPPATH\Controllers\controllerConnexion.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->client()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:34:06 --> Error: Class "App\Controllers\modelClient" not found
+[Method: POST, Route: verifClient]
+in APPPATH\Controllers\controllerConnexion.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->client()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-02 05:36:13 --> Error: Class "App\Controllers\modelClient" not found
+[Method: POST, Route: verifClient]
+in APPPATH\Controllers\controllerConnexion.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->client()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -9,10 +9,18 @@ class modelVoiture extends Model
     protected $autoIncrement = true;
     protected $returnType = 'array';
 
-    protected $allowedFields = ['voit_marq', 'voit_mdl', 
-                                'voit_prix', 'voit_moteur', 
-                                'voit_puiss', 'voit_0_100_kmh', 
-                                'voit_0_200_kmh', 'voit_vitesse_max', 
-                                'voit_chemin_dossier', 'voit_annee'];
+    protected $allowedFields = [
+        'voit_marq',
+        'voit_mdl',
+        'voit_prix',
+        'voit_moteur',
+        'voit_puiss',
+        'voit_0_100_kmh',
+        'voit_0_200_kmh',
+        'voit_vitesse_max',
+        'voit_chemin_dossier',
+        'voit_annee'
+    ];
+
+    protected $useTimestamps = false;
 }
-?>

@@ -12,12 +12,16 @@ $routes->get('/Acceuil', 'controllerAcceuil::acceuil' , ['as' => 'acceuil']);
 
 
 
+
 /* VOITURES */
 $routes->get('/Voiture/ajoutVoiture', 'controllerVoiture::formVoiture', ['as' => 'formVoiture']);
 $routes->get('/Voiture/ListeVoiture', 'controllerVoiture::affichageVoiture', ['as' => 'affichageVoiture']);
-$routes->get('/Voiture/detailVoiture', 'controllerVoiture::vitrineVoiture', ['as' => 'vitrineVoiture']);
-$routes->get('/Voiture/vitrineVoiture/detailVoiture', 'controllerVoiture::detailVoiture', ['as' => 'detailVoiture']);
-$routes->post('/Voiture/ajoutVoiture', 'controllerVoiture::ajoutVoiture', ['as' => 'ajoutVoiture']);
+
+$routes->get('/Voiture/Liste/(:segment)', 'ControllerVoiture::vitrineVoiture/$1');
+
+
+$routes->get('/Voiture/detailVoiture/(:num)', 'controllerVoiture::detailVoiture/$1', ['as' => 'detailVoiture']);
+$routes->post('/Voiture/ajoutUneVoiture', 'controllerVoiture::ajoutVoiture', ['as' => 'ajoutVoiture']);
 
 /* PAGE TEST */
 $routes->match(['get', 'post'], '/TESTAGE', 'TESTAGE::pageTest', ['as' => 'test']);
@@ -27,10 +31,14 @@ $routes->post('/TESTAGE/save', 'TESTAGE::save');
 
 /* ADMIN */
 $routes->get('/Admin', 'controllerAdmin::index' , ['as' => 'admin']);
+$routes->get('/Admin/service', 'controllerService::adminService', ['as' => 'adminService']);
 
 
-/* CONNEXION */
+/* CONNEXION ET DECONNEXION */
 $routes->get('/connexion', 'controllerConnexion::connexion', ['as' => 'connexion']);
+$routes->post('/verifClient', 'controllerConnexion::client', ['as' => 'verifClient']);
+$routes->post('/verifAdmin', 'controllerConnexion::admin', ['as' => 'verifAdmin']);
+$routes->get('/deconnexion', 'controllerConnexion::deconnexion', ['as' => 'deconnexion']);
 /* $routes->post('/connexion/save', 'controllerConnexion::save'); */
 
 $routes->match(['get', 'post'], '/controllerConnexion/choixEspace', 'controllerConnexion::choixEspace', ['as' => 'choixEspace']);
@@ -42,4 +50,8 @@ $routes->post('/Inscription', 'controllerClient::inscription', ['as' => 'inscrip
 
 
 /* CONTACT */
-$routes->get('/contact', 'controllerContact::pageContact', ['as' => 'contact']);
+$routes->get('/contact', 'controllerContact::contact', ['as' => 'contact']);
+
+
+/* SERVICE */
+$routes->get('/service', 'controllerService::service', ['as' => 'service']);

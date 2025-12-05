@@ -8,13 +8,13 @@ toggle.addEventListener('click', () => {
     mode = 'admin';
     toggle.classList.add('admin');
     toggle.textContent = 'Admin';
-    form.action = '/Admin'; // change la cible du formulaire
+    form.action = '/verifAdmin'; // change la cible du formulaire
     console.log('Formulaire redirigé vers /admin');
   } else {
     mode = 'client';
     toggle.classList.remove('admin');
     toggle.textContent = 'Espace client';
-    form.action = '/Acceuil';
+    form.action = '/verifClient'; // change la cible du formulaire
     console.log('Formulaire redirigé vers /client');
   }
 });

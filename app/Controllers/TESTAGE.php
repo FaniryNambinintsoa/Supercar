@@ -17,9 +17,13 @@ class TESTAGE extends BaseController
         /* return view('admin/dashboard/index'); */
 /* $donnees = ['val' => $this->request->getPost('maValeur')];
         return view('pageConnexion', $donnees); */
-        $donnee = ['valeur' => $this->request->getPost('valeur'),
+        /* $donnee = ['valeur' => $this->request->getPost('valeur'),
         'data' => $this->request->getJSON()];
-        return view('pageConnexion', $donnee);
+        return view('pageConnexion', $donnee); */
+        $donnees = [
+            'titre' => 'Hello Page'
+        ];
+        return view('TESTAGE', $donnees);
     }
 
     public function hello(): string

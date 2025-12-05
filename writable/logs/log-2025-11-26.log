@@ -1,0 +1,19 @@
+CRITICAL - 2025-11-26 08:50:50 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: service]
+in APPPATH\Views\header.php on line 26.
+ 1 APPPATH\Views\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Views\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Views\miseEnPage.php(10): view('header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageService', [], true)
+10 APPPATH\Controllers\controllerService.php(8): view('pageService')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerService->service()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerService))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

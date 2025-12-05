@@ -1,3 +1,6 @@
+<?= $this->extend('miseEnPage') ?>
+<?= $this->section('content') ?>
+
 <!-- <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -76,12 +79,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?= base_url('assets/css/pageChoixVoiture.css') ?>">
+    <script src="https://unpkg.com/3d-flip-book/dist/js/3dflipbook.min.js"></script>
+    
+    
 </head>
 <body>
  <div class="conteneur-pp">
-    <h1>Page de test TESTAGE.php</h1>
- </div>
+    <h1>Page de test</h1>
+</div>
+    
+
+<embed src="<?= base_url('assets/uploads/mon.pdf') ?>" type="application/pdf" width="100%" height="600px" />
+
 </body>
 </html>
+
+<?= $this->endSection() ?>

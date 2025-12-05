@@ -65,9 +65,7 @@ ul{
 /* Conteneur principal */
 .video-header {
     position: relative;
-    height: 100vh;
-
-    /* plein écran */
+    height: 80vh;
     overflow: hidden;
 }
 
@@ -174,6 +172,17 @@ a{
 .nav-n-contact{
   display: flex;
   flex-direction: column;
-  height: 85vh;
+  height: 75%;
   justify-content: space-between;
+}
+
+.nom{
+  color: white;
+}
+
+.cont-session{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
 }
