@@ -22,7 +22,7 @@
                     </div>
 
                     <div class="card-body">
-                        <form action="/Voiture/ajoutUneVoiture" method="POST" enctype="multipart/form-data">
+                        <form action="/ajoutUneVoiture" method="POST" enctype="multipart/form-data">
 
                             <div class="mb-3">
                                 <label class="form-label">Marque</label>

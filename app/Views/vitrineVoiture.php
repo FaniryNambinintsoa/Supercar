@@ -14,13 +14,9 @@
     <body>
         <div class="label-mrq">
             <ol class="breadcrumb-triangle">
-                <li>
-                    <a href="/">Accueil</a>
-                </li>
-                <li>
-                    <a href="/services">Services</a>
-                </li>
-                <li aria-current="page">Consulting</li>
+                <li><a href="/Acceuil">Accueil</a></li>
+                <li><a href="/Voiture/ListeVoiture">Voitures</a></li>
+                <li aria-current="page"><?= esc($marque) ?></li>
             </ol>
         </div>
         <hr>
@@ -36,14 +32,14 @@
                 </div>
                 <div class="nbr-mdl">
                     <div class="cont-tout">
-                        <div class="cont-nbr">1</div>
+                        <div class="cont-nbr"><?= esc($nbrVoiture) ?></div>
                         <div class="cont-desc">Model de presentation</div>
                     </div>
-                    <div class="cont-tout">
+                    <!-- <div class="cont-tout">
                         <div class="cont-nbr">1</div>
                         <div class="cont-desc">Total des voitures 
 </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -51,7 +47,7 @@
         <br>
         <div class="cont-voiture-gbl">
          <?php foreach($voitures as $voiture): ?>
-            <a href="<?= url_to('controllerVoiture::detailVoiture', $voiture['voit_id']) ?>">
+            <a href="<?= url_to('Client\controllerVoiture::detailVoiture', $voiture['voit_id']) ?>">
                 <div class="cont-style">
                     
                     <div class="cont-voiture">

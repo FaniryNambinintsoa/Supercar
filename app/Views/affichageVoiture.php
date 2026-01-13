@@ -12,11 +12,17 @@
     
 </head>
 <body>
+    <div class="label-mrq">
+            <ol class="breadcrumb-triangle">
+                <li><a href="/Acceuil">Accueil</a></li>
+                <li aria-current="page">Voitures</li>
+            </ol>
+        </div>
     <div class="flex flex-col gap-8 max-w-full px-48 py-16 transform translate-x-0">
-            <div class="bg-transparent font-semibold text-3xl text-center w-full">Bienvenu sur notre site web salle d&apos;exposition automobile.</div>
-            <div class="bg-transparent font-medium leading-none text-6xl text-center tracking-normal">Visitez, demandez des essais avant de comander votre voiture de reve.</div>
+            <div class="bg-transparent font-semibold text-3xl text-center w-full">Bienvenue sur notre site web de salle d'exposition automobile.</div>
+            <div class="bg-transparent font-medium leading-none text-6xl text-center tracking-normal">Visitez, demandez un essai avant de commander votre voiture de rêve.</div>
             <div>
-                <div class="bg-transparent font-bold text-2xl text-left">Faite votre choix</div>
+                <div class="bg-transparent font-bold text-2xl text-left">Faites votre choix</div>
                 <div class="bg-transparent text-2xl text-left">Nos marques disponibles</div>
                 <hr/>
             </div>

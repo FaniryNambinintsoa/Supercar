@@ -21,7 +21,7 @@
             </div>
             <div class="cont-logo-marq">
             <div class="cont-logo-ovrfl">
-                <a href="<?= url_to('controllerVoiture::vitrineVoiture') ?>"><img src="<?= base_url('assets/uploads/Mclaren/logo/car_logo.svg') ?>" class="p-2"/></a>
+                <a href="<?= url_to('Client\controllerVoiture::vitrineVoiture') ?>"><img src="<?= base_url('assets/uploads/Mclaren/logo/car_logo.svg') ?>" class="p-2"/></a>
             </div>
             <div class="cont-logo-ovrfl">
                 <a href=""><img src="<?= base_url('assets/uploads/Mclaren/logo/car_logo.svg') ?>" class="p-2"/></a>

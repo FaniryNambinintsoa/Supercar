@@ -1,0 +1,30 @@
+CRITICAL - 2025-12-30 07:21:13 --> Error: Class "App\Filters\AdminFilter" not found
+[Method: GET, Route: Admin]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('App\\Filters\\AdminFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('Admin', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-30 12:59:13 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\controllerVoiture::formVoiture
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\controllerVoiture', 'formVoiture')
+ 2 APPPATH\Views\sidenav.php(52): url_to('Client\\controllerVoiture::formVoiture')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\sidenav.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sidenav', [], true)
+ 6 APPPATH\Views\miseEnPage.php(9): view('sidenav')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\miseEnPage.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('miseEnPage', [], true)
+10 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageAcceuil', [], true)
+11 APPPATH\Controllers\Client\controllerAcceuil.php(19): view('pageAcceuil', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerAcceuil->acceuil()
+13 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerAcceuil))
+14 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

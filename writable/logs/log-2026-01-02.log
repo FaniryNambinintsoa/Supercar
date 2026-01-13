@@ -1,0 +1,57 @@
+CRITICAL - 2026-01-02 11:04:01 --> Error: Class "App\Controllers\Admin\modelEssai" not found
+[Method: GET, Route: Admin/listeDemandes]
+in APPPATH\Controllers\Admin\controllerEssai.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-02 11:04:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/listeDemande.php"
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/listeDemande.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemande', [], true)
+ 3 APPPATH\Controllers\Admin\controllerEssai.php(14): view('admin/listeDemande', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-02 11:04:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/listeDemande.php"
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/listeDemande.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemande', [], true)
+ 3 APPPATH\Controllers\Admin\controllerEssai.php(14): view('admin/listeDemande', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-02 11:06:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/listeDemande.php"
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/listeDemande.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemande', [], true)
+ 3 APPPATH\Controllers\Admin\controllerEssai.php(14): view('admin/listeDemande', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-02 11:06:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/listeDemande.php"
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/listeDemande.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemande', [], true)
+ 3 APPPATH\Controllers\Admin\controllerEssai.php(14): view('admin/listeDemande', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

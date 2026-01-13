@@ -40,7 +40,7 @@
                             <button type="submit" class="btn-connex">Creer mon compte</button>     
                         </div>                         
                         <div class="cont-insc"> 
-                            <span>Vous avez deja un compte?  <a href="<?= url_to('controllerConnexion::connexion')?>">Se connecter</a> </span> 
+                            <span>Vous avez deja un compte?  <a href="<?= url_to('Client\controllerConnexion::connexion')?>">Se connecter</a> </span> 
                         </div>                         
                     </form>                     
                 </div>                 

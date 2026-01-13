@@ -118,7 +118,7 @@
     Japon, Singapour, Afrique du Sud, États-Unis, Chine, Allemagne, France… et bien plus encore.
   </p>
 
-  <a href="<?=url_to('controllerAcceuil::acceuil')?>" class="btn">Découvrir SuperCar</a>
+  <a href="<?=url_to('Client\controllerAcceuil::acceuil')?>" class="btn">Découvrir SuperCar</a>
 </div>
   <div class="flags" id="flagsContainer">
     <img class="flag" src="https://flagcdn.com/w40/jp.png" alt="Japon">

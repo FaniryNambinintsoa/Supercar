@@ -4,7 +4,7 @@ use CodeIgniter\Model;
 
 class modelVoiture extends Model
 {
-    protected $table = 'voiture';
+    protected $table = 'voitures';
     protected $primaryKey = 'voit_id';
     protected $autoIncrement = true;
     protected $returnType = 'array';

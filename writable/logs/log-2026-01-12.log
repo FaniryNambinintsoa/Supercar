@@ -1,0 +1,799 @@
+ERROR - 2026-01-12 10:29:49 --> mysqli_sql_exception: Table 'demande_essai' inconnue in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\Supercar\app\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-12 10:29:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.*
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:29:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.*
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.*
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.*
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:29:49 --> [Caused by] mysqli_sql_exception: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande_essai`.*, `users`.*
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.*
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.*
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.*
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-01-12 10:35:06 --> mysqli_sql_exception: Table 'demande_essai' inconnue in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\Supercar\app\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-12 10:35:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:35:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:35:06 --> [Caused by] mysqli_sql_exception: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-01-12 10:35:17 --> mysqli_sql_exception: Table 'demande_essai' inconnue in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\Supercar\app\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-12 10:35:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:35:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:35:17 --> [Caused by] mysqli_sql_exception: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-01-12 10:35:20 --> mysqli_sql_exception: Table 'demande_essai' inconnue in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\Supercar\app\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-12 10:35:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:35:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:35:20 --> [Caused by] mysqli_sql_exception: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-01-12 10:35:24 --> mysqli_sql_exception: Table 'demande_essai' inconnue in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\Supercar\app\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-12 10:35:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:35:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:35:24 --> [Caused by] mysqli_sql_exception: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`
+FROM `dmd_essai`
+JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\controllerEssai.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-01-12 10:37:17 --> mysqli_sql_exception: Table 'demande_essai' inconnue in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\Supercar\app\Controllers\Admin\controllerEssai.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-12 10:37:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`nom`, `users`.`email`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\controllerEssai.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:37:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`nom`, `users`.`email`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`nom`, `users`.`email`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`nom`, `users`.`email`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\controllerEssai.php(16): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:37:17 --> [Caused by] mysqli_sql_exception: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande_essai`.*, `users`.`nom`, `users`.`email`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`nom`, `users`.`email`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`nom`, `users`.`email`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`nom`, `users`.`email`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\controllerEssai.php(16): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-01-12 10:39:27 --> mysqli_sql_exception: Table 'demande_essai' inconnue in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\Supercar\app\Controllers\Admin\controllerEssai.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-12 10:39:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`, `users`.`us_mail`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\controllerEssai.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:39:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`us_nom`, `users`.`us_mail`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`us_nom`, `users`.`us_mail`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`, `users`.`us_mail`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\controllerEssai.php(16): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 10:39:27 --> [Caused by] mysqli_sql_exception: Table 'demande_essai' inconnue
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `demande_essai`.*, `users`.`us_nom`, `users`.`us_mail`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `demande_essai`.*, `users`.`us_nom`, `users`.`us_mail`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `demande_essai`.*, `users`.`us_nom`, `users`.`us_mail`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `demande_essai`.*, `users`.`us_nom`, `users`.`us_mail`
+FROM `dmd_essai`
+INNER JOIN `users` ON `users`.`us_id` = `demande_essai`.`us_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\controllerEssai.php(16): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 11:30:49 --> ErrorException: Undefined array key "us_prenom"
+[Method: GET, Route: Admin/listeDemandes]
+in APPPATH\Views\admin\listeDemandeEssai.php on line 47.
+ 1 APPPATH\Views\admin\listeDemandeEssai.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "us_prenom"', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\listeDemandeEssai.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\listeDemandeEssai.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemandeEssai', [], true)
+ 5 APPPATH\Controllers\Admin\controllerEssai.php(16): view('admin/listeDemandeEssai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:07:13 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Admin\controllerVoiture::listeMarque
+[Method: GET, Route: Admin/listeDemandes]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Admin\\controllerVoiture', 'listeMarque')
+ 2 APPPATH\Views\admin\sidenav.php(62): url_to('Admin\\controllerVoiture::listeMarque')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 6 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+10 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemandeEssai', [], true)
+11 APPPATH\Controllers\Admin\controllerEssai.php(16): view('admin/listeDemandeEssai', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+13 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+14 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:08:27 --> ErrorException: Undefined variable $marques
+[Method: GET, Route: Admin/listeDemandes]
+in APPPATH\Views\admin\sidenav.php on line 65.
+ 1 APPPATH\Views\admin\sidenav.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marques', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemandeEssai', [], true)
+10 APPPATH\Controllers\Admin\controllerEssai.php(16): view('admin/listeDemandeEssai', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:08:29 --> ErrorException: Undefined variable $marques
+[Method: GET, Route: Admin/listeDemandes]
+in APPPATH\Views\admin\sidenav.php on line 65.
+ 1 APPPATH\Views\admin\sidenav.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marques', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemandeEssai', [], true)
+10 APPPATH\Controllers\Admin\controllerEssai.php(16): view('admin/listeDemandeEssai', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:08:29 --> ErrorException: Undefined variable $marques
+[Method: GET, Route: Admin/listeDemandes]
+in APPPATH\Views\admin\sidenav.php on line 65.
+ 1 APPPATH\Views\admin\sidenav.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marques', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemandeEssai', [], true)
+10 APPPATH\Controllers\Admin\controllerEssai.php(16): view('admin/listeDemandeEssai', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:08:30 --> ErrorException: Undefined variable $marques
+[Method: GET, Route: Admin/listeDemandes]
+in APPPATH\Views\admin\sidenav.php on line 65.
+ 1 APPPATH\Views\admin\sidenav.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marques', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemandeEssai', [], true)
+10 APPPATH\Controllers\Admin\controllerEssai.php(16): view('admin/listeDemandeEssai', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:08:31 --> ErrorException: Undefined variable $marques
+[Method: GET, Route: Admin/listeDemandes]
+in APPPATH\Views\admin\sidenav.php on line 65.
+ 1 APPPATH\Views\admin\sidenav.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marques', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemandeEssai', [], true)
+10 APPPATH\Controllers\Admin\controllerEssai.php(16): view('admin/listeDemandeEssai', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:08:36 --> ErrorException: Undefined variable $marques
+[Method: GET, Route: Admin/listeDemandes]
+in APPPATH\Views\admin\sidenav.php on line 65.
+ 1 APPPATH\Views\admin\sidenav.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marques', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemandeEssai', [], true)
+10 APPPATH\Controllers\Admin\controllerEssai.php(16): view('admin/listeDemandeEssai', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:08:37 --> ErrorException: Undefined variable $marques
+[Method: GET, Route: Admin/listeDemandes]
+in APPPATH\Views\admin\sidenav.php on line 65.
+ 1 APPPATH\Views\admin\sidenav.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marques', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/listeDemandeEssai', [], true)
+10 APPPATH\Controllers\Admin\controllerEssai.php(16): view('admin/listeDemandeEssai', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerEssai->listeDmd()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerEssai))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:29:31 --> ErrorException: Array to string conversion
+[Method: GET, Route: Admin/TableauDeBord]
+in APPPATH\Views\admin\sidenav.php on line 66.
+ 1 APPPATH\Views\admin\sidenav.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin\controllerAdmin.php(8): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerAdmin->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerAdmin))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:31:00 --> ErrorException: Array to string conversion
+[Method: GET, Route: Admin/TableauDeBord]
+in APPPATH\Views\admin\sidenav.php on line 66.
+ 1 APPPATH\Views\admin\sidenav.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin\controllerAdmin.php(8): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerAdmin->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerAdmin))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:38:02 --> ErrorException: Array to string conversion
+[Method: GET, Route: Admin/TableauDeBord]
+in APPPATH\Views\admin\sidenav.php on line 66.
+ 1 APPPATH\Views\admin\sidenav.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin\controllerAdmin.php(8): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerAdmin->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerAdmin))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:39:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: Admin/TableauDeBord]
+in APPPATH\Views\admin\sidenav.php on line 66.
+ 1 APPPATH\Views\admin\sidenav.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin\controllerAdmin.php(8): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerAdmin->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerAdmin))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:39:17 --> ErrorException: Array to string conversion
+[Method: GET, Route: Admin/TableauDeBord]
+in APPPATH\Views\admin\sidenav.php on line 66.
+ 1 APPPATH\Views\admin\sidenav.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin\controllerAdmin.php(8): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerAdmin->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerAdmin))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-12 14:39:18 --> ErrorException: Array to string conversion
+[Method: GET, Route: Admin/TableauDeBord]
+in APPPATH\Views\admin\sidenav.php on line 66.
+ 1 APPPATH\Views\admin\sidenav.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin\controllerAdmin.php(8): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerAdmin->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerAdmin))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

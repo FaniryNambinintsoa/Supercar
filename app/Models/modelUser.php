@@ -4,7 +4,7 @@ use CodeIgniter\Model;
 
 class modelUser extends Model
 {
-  protected $table = 'user';
+  protected $table = 'users';
   protected $primaryKey = 'us_id';
   protected $autoIncrement = true;
   protected $returnType = 'array';

@@ -5,6 +5,7 @@ namespace Config;
 use CodeIgniter\Events\Events;
 use CodeIgniter\Exceptions\FrameworkException;
 use CodeIgniter\HotReloader\HotReloader;
+use App\Models\modelVoiture;
 
 /*
  * --------------------------------------------------------------------
@@ -52,4 +53,15 @@ Events::on('pre_system', static function (): void {
             });
         }
     }
+
+$modelVoiture = new modelVoiture();
+$marques = $modelVoiture->select('voit_marq')->distinct()->findAll();
+
+    service('renderer')->setData([
+        'marques' => $marques
+    ]);
+
+
 });
+
+

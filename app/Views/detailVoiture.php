@@ -9,17 +9,24 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <title>New page</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?= base_url('assets/css/detailVoiture.css') ?>">
         <link rel="stylesheet" href="https://unpkg.com/tailwindcss@1.9.3/dist/tailwind.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded&display=swap">
         <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
     </head>
     <body>
+        <?php if(session()->getFlashdata('success')): ?>
+    <div class="alert alert-success">
+        <?= session()->getFlashdata('success') ?>
+    </div>
+<?php endif; ?>
         <div class="label-mrq">
             <ol class="breadcrumb-triangle">
-                <li><a href="/">Accueil</a></li>
-                <li><a href="/services">Services</a></li>
-                <li aria-current="page">Consulting</li>
+                <li><a href="/Acceuil">Accueil</a></li>
+                <li><a href="/Voiture/ListeVoiture">Voitures</a></li>
+                <li><a href="/Voiture/Liste/<?= esc($voiture['voit_marq']) ?>"><?= esc($voiture['voit_marq']) ?></a></li>
+                <li aria-current="page"><?= esc($voiture['voit_mdl']) ?></li>
             </ol>
         </div>
         
@@ -32,10 +39,13 @@
                     <img src="<?= base_url($voiture['voit_chemin_dossier'] . '/car_logo.svg') ?>" class="img-logo" alt="">
                 </div>
                 <div class="cont-p-mdl">
-                    <p class="p-mdl">720S <br> Prix: 3 000 000 RS</p>
+                    <p class="p-mdl"><?= esc($voiture['voit_mdl']) ?><br> Prix: <?= esc($voiture['voit_prix']) ?> RS</p>
                 </div>
                 <div class="cont-boutton">
-                    <button class="boutton-act">Demander un essai</button>
+                        <button class="boutton-act" type="button" id="btnEssai">Demander un essai</button>
+                        
+                    
+                  
                     <button class="boutton-act">Commander</button>
                 </div>
                 <div class="conteneur-act">
@@ -47,7 +57,7 @@
             </div>             
         </div>
         <div class="label-mrq label-specif specif-label">
-            <h1>SPECIFICATION MCLAREN 720S</h1>
+            <h1>SPECIFICATION <?= esc(strtoupper($voiture['voit_marq'])) ?> <?= esc(strtoupper($voiture['voit_mdl'])) ?></h1>
         </div>
         <div class="conteneur-gbl-2">
             <div class="conteneur-img-dfa ">
@@ -66,27 +76,27 @@
             <div class="flex flex-row items-center justify-center tableau w-full">
                 <table class="bg-white border border-black border-solid h-full tableau-specification text-center w-full">
                     <tr class="border border-black border-solid">
-                        <th colspan="2">Annee de sortie: 2017</th>
+                        <th colspan="2">Annee de sortie: <?= esc($voiture['voit_annee']) ?></th>
                     </tr>
                     <tr class="border border-black border-solid divide-black divide-x">
                         <td class="">Moteur:</td>
-                        <td>(data)</td>
+                        <td><?= esc($voiture['voit_moteur']) ?></td>
                     </tr>
                     <tr class="border border-black border-solid divide-black divide-x">
                         <td class="">Puissance:</td>
-                        <td>(data)</td>
+                        <td><?= esc($voiture['voit_puiss']) ?> Ch</td>
                     </tr>
                     <tr class="border border-black border-solid divide-black divide-x">
                         <td class="">0-100 km/h:</td>
-                        <td>(data)</td>
+                        <td><?= esc($voiture['voit_0_100_kmh']) ?> s</td>
                     </tr>
                     <tr class="border border-black border-solid divide-black divide-x">
                         <td class="">0-200 km/h:</td>
-                        <td>(data)</td>
+                        <td><?= esc($voiture['voit_0_200_kmh']) ?> s</td>
                     </tr>
                     <tr class="border border-black border-solid divide-black divide-x">
                         <td class="">Vitesse max:</td>
-                        <td>(data)</td>
+                        <td><?= esc($voiture['voit_vitesse_max']) ?> Km/h</td>
                     </tr>
                 </table>
             </div>
@@ -101,7 +111,32 @@
             </div>
             <?php endforeach; ?>
         </div>
+
+
+
+<?= view('formEssai') ?>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="<?=base_url('assets/js/detailVoiture.js')?>"></script>
+        <script>
+    const isLoggedIn = <?= session()->get('status_connex') ? 'true' : 'false' ?>;
+    const isClient = <?= (session()->get('role') === 'client') ? 'true' : 'false' ?>;
+
+    document.getElementById('btnEssai').addEventListener('click', function () {
+        if (isLoggedIn && isClient) {
+            const modal = new bootstrap.Modal(
+                document.getElementById('demandeEssaiModal')
+            );
+            modal.show();
+        } else {
+            window.location.href = "<?= base_url('/connexion') ?>";
+        }
+    });
+</script>
+
     </body>
 </html>
 

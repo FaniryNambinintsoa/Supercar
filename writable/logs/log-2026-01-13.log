@@ -1,0 +1,19 @@
+CRITICAL - 2026-01-13 05:07:27 --> ErrorException: Array to string conversion
+[Method: GET, Route: Admin/TableauDeBord]
+in APPPATH\Views\admin\sidenav.php on line 66.
+ 1 APPPATH\Views\admin\sidenav.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\sidenav.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/sidenav', [], true)
+ 5 APPPATH\Views\admin\miseEnPage.php(50): view('admin/sidenav')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\miseEnPage.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/miseEnPage', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin\controllerAdmin.php(8): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerAdmin->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerAdmin))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

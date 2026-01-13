@@ -13,7 +13,7 @@
 <div id="mySidenav" class="sidenav">
 
  
-        <?php if (session()->get('status_connex')) {
+        <?php if (session()->get('status_connex') && session()->get('status_connex') === true && session()->get('role') === 'client') {
             // Récupère les initiales de l'utilisateur
             $initiales = strtoupper(substr(session()->get('prenom'), 0, 1) . substr(session()->get('nom'), 0, 1));
                 ?>
@@ -35,7 +35,7 @@
         <?php } else { ?>
             <!-- Affiche le bouton de connexion si l'utilisateur n'est pas connecté -->
             <div class="btn-connex">
-                    <a href="<?= url_to('controllerConnexion::connexion')?>">
+                    <a href="<?= url_to('Client\controllerConnexion::connexion')?>">
                         <div class="btn-connexion"><img src=<?= base_url("assets/images/profil.png") ?> alt="Connexion" style="width: 40px; height: 40px;"><span>Se connecter</span></div>
                     </a>
             </div>
@@ -44,19 +44,19 @@
 
   <div class="nav-n-contact">
       <div>
-          <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerAcceuil::acceuil') ?>"><span><i class="fa-solid fa-house"></i></span><span style="margin-left: 10px;"> Acceuil</span></a></div>
-          <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerVoiture::affichageVoiture') ?>"><span><i class="fa-solid fa-car-on"></i></span><span style="margin-left: 10px;"> Voiture</span></a></div>
+          <div class="menu-item"><a class="lien-item" href="<?= url_to('Client\controllerAcceuil::acceuil') ?>"><span><i class="fa-solid fa-house"></i></span><span style="margin-left: 10px;"> Acceuil</span></a></div>
+          <div class="menu-item"><a class="lien-item" href="<?= url_to('Client\controllerVoiture::affichageVoiture') ?>"><span><i class="fa-solid fa-car-on"></i></span><span style="margin-left: 10px;"> Voiture</span></a></div>
           <!-- <a href="javascript:void(0)" onclick="openNcloseVoitChoice()">Voiture</a>
             <div class="voitChoice">
               <ul id="voitChoice">
-                <li><a href="<?= url_to('controllerVoiture::formVoiture') ?>">Ajout Voitures</a></li>
+                <li><a href="">Ajout Voitures</a></li>
                 <li><a href="<?= route_to('affichageVoiture') ?>">Voir Voitures</a></li>
               </ul>
             </div> -->
-          <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerService::service') ?>"><span><i class="fa-solid fa-hand-holding-medical"></i></span><span style="margin-left: 10px;"> Services</span></a></div>
+          <div class="menu-item"><a class="lien-item" href="<?= url_to('Client\controllerService::service') ?>"><span><i class="fa-solid fa-hand-holding-medical"></i></span><span style="margin-left: 10px;"> Services</span></a></div>
       </div>
       <div>
-          <div class="menu-item"><a class="lien-item" href="<?= url_to('controllerContact::contact') ?>"><span><i class="fa-solid fa-address-book"></i></span><span style="margin-left: 10px;">Contactez-nous</span></a></div>
+          <div class="menu-item"><a class="lien-item" href="<?= url_to('Client\controllerContact::contact') ?>"><span><i class="fa-solid fa-address-book"></i></span><span style="margin-left: 10px;">Contactez-nous</span></a></div>
       </div>
   </div>
 </div>

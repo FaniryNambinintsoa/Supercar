@@ -1,7 +1,7 @@
 
   <div class="navbar-wrapper">
     <div class="m-header flex items-center py-4 px-6 h-header-height">
-      <a href="../dashboard/index.php" class="b-brand flex items-center gap-3">
+      <a href="#" class="b-brand flex items-center gap-3">
         <!-- ========   Change your logo from here   ============ -->
         <img src="<?= base_url('assets/images/logo_supercar.png') ?>" class="img-fluid logo logo-lg" alt="logo" />
         <img src="<?= base_url('assets/images/logo_supercar.png') ?>" class="img-fluid logo logo-sm" alt="logo" />
@@ -14,41 +14,59 @@
           <label>Navigation</label>
         </li>
         <li class="pc-item">
-        <li class="pc-item">
-          <a href="../dashboard/index.php" class="pc-link">
+        <li class="pc-item pc-hasmenu">
+          <a href="<?= url_to('Admin\controllerAdmin::index') ?>" class="pc-link">
             <span class="pc-micon">
               <i data-feather="home"></i>
             </span>
-            <span class="pc-mtext">Vue d'ensemble</span>
+            <span class="pc-mtext">Tableau de bord</span>
           </a>
-          <a href="../dashboard/index.php" class="pc-link">
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#" class="pc-link">
+            <span class="pc-micon">
+              <i style="color: #a9b7d0d1" class="fa-solid fa-warehouse"></i>
+            </span>
+            <span class="pc-mtext">Entrepots</span>
+          </a>
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <a href="<?= url_to('Admin\controllerContact::listeComs') ?>" class="pc-link">
             <span class="pc-micon">
               <i data-feather="message-circle"></i>
             </span>
             <span class="pc-mtext">Commentaires</span>
           </a>
-          <a href="../dashboard/index.php" class="pc-link">
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <a href="<?= url_to('Admin\controllerEssai::listeDmd') ?>" class="pc-link">
             <span class="pc-micon">
               <i style="color: #a9b7d0d1" class="fa-regular fa-hourglass-half"></i>
             </span>
             <span class="pc-mtext">Demandes d'essai</span>
           </a>
-          <a href="<?= route_to('adminService') ?>" class="pc-link">
-            <span class="pc-micon">
-              <i style="color: #a9b7d0d1" class="fa-solid fa-hand-holding-medical"></i>
-            </span>
-            <span class="pc-mtext">Services</span>
-          </a>
+        </li>
+            <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"><span class="pc-micon"> <i style="color: #a9b7d0d1" class="fa-solid fa-hand-holding-medical"></i> </span><span
+              class="pc-mtext">Services</span><span class="pc-arrow"><i class="ti ti-chevron-right"></i></span></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a href="#!" class="pc-link">Nos services</a></li>
+            <li class="pc-item"><a href="#!" class="pc-link">Demandes</a></li>
+          </ul>
         </li>
         <li class="pc-item pc-caption">
           <label>Gestion des vehicules</label>
           <i data-feather="feather"></i>
         </li>
         <li class="pc-item pc-hasmenu">
-          <a href="../elements/icon-feather.php" class="pc-link">
-            <span class="pc-micon"> <i data-feather="feather"></i></span>
-            <span class="pc-mtext">Liste des vehicules</span>
-          </a>
+          <a href="#!" class="pc-link"><span class="pc-micon"><i style="color: #a9b7d0d1" class="fa-solid fa-car"></i></span><span
+              class="pc-mtext">Liste des vehicules</span><span class="pc-arrow"><i class="ti ti-chevron-right"></i></span></a>
+          <ul class="pc-submenu">
+            <?php foreach ($marques as $marque): ?>
+            <li class="pc-item"><a href="#!" class="pc-link"><?= $marque['voit_marq'] ?></a></li>
+             <?php endforeach; ?>
+          </ul>
+         
         </li>
         <li class="pc-item pc-hasmenu">
           <a href="../elements/bc_color.php" class="pc-link">
@@ -57,7 +75,7 @@
           </a>
         </li>
         <li class="pc-item pc-hasmenu">
-          <a href="<?= route_to('formVoiture') ?>" class="pc-link">
+          <a href="<?= url_to('Admin\controllerVoiture::formVoiture') ?>" class="pc-link">
             <span class="pc-micon"> <i data-feather="type"></i></span>
             <span class="pc-mtext">Ajouter</span>
           </a>
@@ -68,10 +86,12 @@
           <i data-feather="feather"></i>
         </li>
         <li class="pc-item pc-hasmenu">
-          <a href="../elements/icon-feather.php" class="pc-link">
-            <span class="pc-micon"> <i data-feather="feather"></i></span>
-            <span class="pc-mtext">Liste des utilisateurs</span>
-          </a>
+          <a href="#!" class="pc-link"><span class="pc-micon"> <i data-feather="align-right"></i> </span><span
+              class="pc-mtext">Liste des utilisateurs</span><span class="pc-arrow"><i class="ti ti-chevron-right"></i></span></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a href="#!" class="pc-link">Clients</a></li>
+            <li class="pc-item"><a href="#!" class="pc-link">Admin</a></li>
+          </ul>
         </li>
         <li class="pc-item pc-hasmenu">
           <a href="../elements/bc_color.php" class="pc-link">
@@ -81,28 +101,13 @@
         </li>
         <li class="pc-item pc-hasmenu">
           <a href="../elements/bc_typography.php" class="pc-link">
-            <span class="pc-micon"> <i data-feather="type"></i></span>
+            <span class="pc-micon"> <i data-feather="user-plus"></i></span>
             <span class="pc-mtext">Ajouter</span>
           </a>
         </li>
         
 
-        <li class="pc-item pc-caption">
-          <label>Pages</label>
-          <i data-feather="monitor"></i>
-        </li>
-        <li class="pc-item pc-hasmenu">
-          <a href="../pages/login-v1.php" class="pc-link" target="_blank">
-            <span class="pc-micon"> <i data-feather="lock"></i></span>
-            <span class="pc-mtext">Login</span>
-          </a>
-        </li>
-        <li class="pc-item pc-hasmenu">
-          <a href="../pages/register-v1.php" class="pc-link" target="_blank">
-            <span class="pc-micon"> <i data-feather="user-plus"></i></span>
-            <span class="pc-mtext">Register</span>
-          </a>
-        </li>
+        
         <li class="pc-item pc-caption">
           <label>Other</label>
           <i data-feather="sidebar"></i>

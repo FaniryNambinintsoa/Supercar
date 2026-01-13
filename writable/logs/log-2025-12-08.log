@@ -1,0 +1,1628 @@
+CRITICAL - 2025-12-08 06:47:07 --> ErrorException: Undefined variable $donnees
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Views\detailVoiture.php on line 107.
+ 1 APPPATH\Views\detailVoiture.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donnees', 'C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php', 107)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('detailVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(175): view('detailVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:47:22 --> ErrorException: Undefined variable $donnees
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Views\detailVoiture.php on line 107.
+ 1 APPPATH\Views\detailVoiture.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donnees', 'C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php', 107)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('detailVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(175): view('detailVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:48:16 --> ErrorException: Undefined variable $id_user
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Views\formEssai.php on line 12.
+ 1 APPPATH\Views\formEssai.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_user', 'C:\\wamp64\\www\\Supercar\\app\\Views\\formEssai.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\formEssai.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('formEssai', [], true)
+ 5 APPPATH\Views\detailVoiture.php(107): view('formEssai')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('detailVoiture', [], true)
+ 9 APPPATH\Controllers\controllerVoiture.php(175): view('detailVoiture', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:51:10 --> ErrorException: Undefined variable $id_user
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Views\detailVoiture.php on line 121.
+ 1 APPPATH\Views\detailVoiture.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_user', 'C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('detailVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(175): view('detailVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:51:14 --> ErrorException: Undefined variable $id_user
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Views\detailVoiture.php on line 121.
+ 1 APPPATH\Views\detailVoiture.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_user', 'C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('detailVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(175): view('detailVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:55:18 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:55:22 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:56:48 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:56:49 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:56:50 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:56:50 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:56:50 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 06:56:54 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:00:04 --> ErrorException: Undefined array key "us_adress"
+[Method: POST, Route: verifClient]
+in APPPATH\Controllers\controllerConnexion.php on line 91.
+ 1 APPPATH\Controllers\controllerConnexion.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "us_adress"', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerConnexion.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->client()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:04:57 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:08:24 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:08:29 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:13:13 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:18:05 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:18:10 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:19:01 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:19:02 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:19:02 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:19:03 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:19:34 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:19:38 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:22:09 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:26:15 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:26:22 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:28:45 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:28:49 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 175.
+ 1 APPPATH\Controllers\controllerVoiture.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:32:48 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:32:49 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:32:49 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:32:49 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:32:49 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:32:49 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:32:49 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:32:49 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:32:49 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:32:53 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:33:00 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:51 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:52 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:52 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:52 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:52 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:52 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:53 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:53 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:53 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:53 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:39:53 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:40:24 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:40:32 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:41:47 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:42:17 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:42:18 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:42:18 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:42:19 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:42:22 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:03 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:04 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:05 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:06 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:06 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:06 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:06 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:07 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:07 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:07 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:07 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:08 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:08 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 07:51:08 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Voiture/detailVoiture/24]
+in APPPATH\Controllers\controllerVoiture.php on line 174.
+ 1 APPPATH\Controllers\controllerVoiture.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerVoiture.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('24')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 10:36:19 --> ErrorException: Undefined variable $donnees
+[Method: GET, Route: Voiture/detailVoiture/23]
+in APPPATH\Views\detailVoiture.php on line 109.
+ 1 APPPATH\Views\detailVoiture.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donnees', 'C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php', 109)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\detailVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('detailVoiture', [], true)
+ 5 APPPATH\Controllers\controllerVoiture.php(181): view('detailVoiture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerVoiture->detailVoiture('23')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:20:04 --> ArgumentCountError: Too few arguments to function App\Controllers\controllerEssai::soumettre(), 0 passed in C:\wamp64\www\Supercar\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: soumettreEssai]
+in APPPATH\Controllers\controllerEssai.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:20:44 --> ArgumentCountError: Too few arguments to function App\Controllers\controllerEssai::soumettre(), 0 passed in C:\wamp64\www\Supercar\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: soumettreEssai]
+in APPPATH\Controllers\controllerEssai.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:21:54 --> ArgumentCountError: Too few arguments to function App\Controllers\controllerEssai::soumettre(), 0 passed in C:\wamp64\www\Supercar\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: soumettreEssai]
+in APPPATH\Controllers\controllerEssai.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:24:16 --> ArgumentCountError: Too few arguments to function App\Controllers\controllerEssai::soumettre(), 0 passed in C:\wamp64\www\Supercar\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: soumettreEssai]
+in APPPATH\Controllers\controllerEssai.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 11:31:16 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 11:31:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai/11]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(37): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:31:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 11:31:16\', \'2025-12-08 11:31:16\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 11:31:16\', \'2025-12-08 11:31:16\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(37): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:31:16 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 11:31:16\', \'2025-12-08 11:31:16\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 11:31:16\', \'2025-12-08 11:31:16\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 11:31:16\', \'2025-12-08 11:31:16\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(37): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 11:37:54 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 11:37:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai/11]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:37:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 11:37:54\', \'2025-12-08 11:37:54\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 11:37:54\', \'2025-12-08 11:37:54\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:37:54 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 11:37:54\', \'2025-12-08 11:37:54\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 11:37:54\', \'2025-12-08 11:37:54\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 11:37:54\', \'2025-12-08 11:37:54\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 11:45:10 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 11:45:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai/11]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(37): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:45:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 11:45:10\', \'2025-12-08 11:45:10\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 11:45:10\', \'2025-12-08 11:45:10\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(37): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:45:10 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 11:45:10\', \'2025-12-08 11:45:10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 11:45:10\', \'2025-12-08 11:45:10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 11:45:10\', \'2025-12-08 11:45:10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(37): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 11:50:36 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 11:50:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai/11]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:50:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 11:50:36\', \'2025-12-08 11:50:36\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 11:50:36\', \'2025-12-08 11:50:36\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 11:50:36 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 11:50:36\', \'2025-12-08 11:50:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 11:50:36\', \'2025-12-08 11:50:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 11:50:36\', \'2025-12-08 11:50:36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 13:31:44 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 13:31:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai/11]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 13:31:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 13:31:44\', \'2025-12-08 13:31:44\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 13:31:44\', \'2025-12-08 13:31:44\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(28): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 13:31:44 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 13:31:44\', \'2025-12-08 13:31:44\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 13:31:44\', \'2025-12-08 13:31:44\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-17\', \'En attente\', \'11\', NULL, \'2025-12-08 13:31:44\', \'2025-12-08 13:31:44\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(28): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 13:32:38 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 13:32:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai/11]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 13:32:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'\', \'En attente\', \'11\', NULL, \'2025-12-08 13:32:38\', \'2025-12-08 13:32:38\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'\', \'En attente\', \'11\', NULL, \'2025-12-08 13:32:38\', \'2025-12-08 13:32:38\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(28): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 13:32:38 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'\', \'En attente\', \'11\', NULL, \'2025-12-08 13:32:38\', \'2025-12-08 13:32:38\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'\', \'En attente\', \'11\', NULL, \'2025-12-08 13:32:38\', \'2025-12-08 13:32:38\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'\', \'En attente\', \'11\', NULL, \'2025-12-08 13:32:38\', \'2025-12-08 13:32:38\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(28): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 13:37:47 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 13:37:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai/11]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(35): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 13:37:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:37:47\', \'2025-12-08 13:37:47\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:37:47\', \'2025-12-08 13:37:47\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(35): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 13:37:47 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:37:47\', \'2025-12-08 13:37:47\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:37:47\', \'2025-12-08 13:37:47\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:37:47\', \'2025-12-08 13:37:47\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(35): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre('11')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 13:47:26 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 13:47:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 13:47:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:47:26\', \'2025-12-08 13:47:26\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:47:26\', \'2025-12-08 13:47:26\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 13:47:26 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:47:26\', \'2025-12-08 13:47:26\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:47:26\', \'2025-12-08 13:47:26\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:47:26\', \'2025-12-08 13:47:26\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 13:51:29 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 13:51:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 13:51:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:51:29\', \'2025-12-08 13:51:29\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:51:29\', \'2025-12-08 13:51:29\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 13:51:29 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:51:29\', \'2025-12-08 13:51:29\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:51:29\', \'2025-12-08 13:51:29\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 13:51:29\', \'2025-12-08 13:51:29\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 14:02:40 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 14:02:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 14:02:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 14:02:40\', \'2025-12-08 14:02:40\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 14:02:40\', \'2025-12-08 14:02:40\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 14:02:40 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 14:02:40\', \'2025-12-08 14:02:40\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 14:02:40\', \'2025-12-08 14:02:40\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', NULL, \'2025-12-08 14:02:40\', \'2025-12-08 14:02:40\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 14:03:04 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 14:03:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 14:03:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-15\', \'En attente\', \'11\', \'23\', \'2025-12-08 14:03:04\', \'2025-12-08 14:03:04\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-15\', \'En attente\', \'11\', \'23\', \'2025-12-08 14:03:04\', \'2025-12-08 14:03:04\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 14:03:04 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-15\', \'En attente\', \'11\', \'23\', \'2025-12-08 14:03:04\', \'2025-12-08 14:03:04\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-15\', \'En attente\', \'11\', \'23\', \'2025-12-08 14:03:04\', \'2025-12-08 14:03:04\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-15\', \'En attente\', \'11\', \'23\', \'2025-12-08 14:03:04\', \'2025-12-08 14:03:04\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-08 14:14:55 --> mysqli_sql_exception: Champ 'created_at' inconnu dans field list in C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\wamp64\www\Supercar\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dm...', 0)
+#1 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dm...')
+#2 C:\wamp64\www\Supercar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dm...')
+#3 C:\wamp64\www\Supercar\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dm...', Array, false)
+#4 C:\wamp64\www\Supercar\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\Supercar\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\Supercar\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\Supercar\system\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+#9 C:\wamp64\www\Supercar\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+#10 C:\wamp64\www\Supercar\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\Supercar\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\Supercar\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\Supercar\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-08 14:14:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+[Method: POST, Route: soumettreEssai]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 14:14:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', \'23\', \'2025-12-08 14:14:55\', \'2025-12-08 14:14:55\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', \'23\', \'2025-12-08 14:14:55\', \'2025-12-08 14:14:55\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 14:14:55 --> [Caused by] mysqli_sql_exception: Champ 'created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', \'23\', \'2025-12-08 14:14:55\', \'2025-12-08 14:14:55\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', \'23\', \'2025-12-08 14:14:55\', \'2025-12-08 14:14:55\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (\'2025-12-16\', \'En attente\', \'11\', \'23\', \'2025-12-08 14:14:55\', \'2025-12-08 14:14:55\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dmd_essai` (`date_essai`, `dmd_status`, `us_id`, `voit_id`, `created_at`, `updated_at`) VALUES (:date_essai:, :dmd_status:, :us_id:, :voit_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controllerEssai.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 15:19:33 --> TypeError: CodeIgniter\HTTP\RedirectResponse::with(): Argument #1 ($key) must be of type string, array given, called in C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php on line 42
+[Method: POST, Route: soumettreEssai]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 132.
+ 1 APPPATH\Controllers\controllerEssai.php(42): CodeIgniter\HTTP\RedirectResponse->with([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 15:22:15 --> TypeError: CodeIgniter\HTTP\RedirectResponse::with(): Argument #1 ($key) must be of type string, array given, called in C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php on line 42
+[Method: POST, Route: soumettreEssai]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 132.
+ 1 APPPATH\Controllers\controllerEssai.php(42): CodeIgniter\HTTP\RedirectResponse->with([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 15:25:36 --> TypeError: CodeIgniter\HTTP\RedirectResponse::with(): Argument #1 ($key) must be of type string, array given, called in C:\wamp64\www\Supercar\app\Controllers\controllerEssai.php on line 42
+[Method: POST, Route: soumettreEssai]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 132.
+ 1 APPPATH\Controllers\controllerEssai.php(42): CodeIgniter\HTTP\RedirectResponse->with([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 15:29:11 --> ErrorException: Undefined variable $type
+[Method: POST, Route: soumettreEssai]
+in APPPATH\Controllers\controllerEssai.php on line 41.
+ 1 APPPATH\Controllers\controllerEssai.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerEssai.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 15:29:35 --> ErrorException: Undefined variable $type
+[Method: POST, Route: soumettreEssai]
+in APPPATH\Controllers\controllerEssai.php on line 41.
+ 1 APPPATH\Controllers\controllerEssai.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerEssai.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerEssai->soumettre()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerEssai))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-08 15:49:54 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:segment)"
+[Method: GET, Route: Voiture/Liste/%28:segment%29]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('Voiture/Liste/(:segment)')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('Voiture/Liste/(:segment)')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -75,3 +75,42 @@
 	border-style: solid; 
     width: 700px;
 }
+
+.link-devis {
+    color: #0041c4;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link-devis:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+.desc-sec-2 .link-devis {
+    height: fit-content;
+}
+
+
+
+#result-devis {
+    overflow: visible !important;
+    max-height: none !important;
+}
+
+.modal-body {
+    overflow-y: auto !important;
+}
+
+#result-devis ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#result-devis li {
+    display: list-item;
+    float: none;
+    margin-bottom: 6px;
+}

@@ -1,0 +1,267 @@
+CRITICAL - 2025-12-24 06:11:33 --> ErrorException: Undefined array key "us_adress"
+[Method: POST, Route: verifAdmin]
+in APPPATH\Controllers\controllerConnexion.php on line 47.
+ 1 APPPATH\Controllers\controllerConnexion.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "us_adress"', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerConnexion.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 06:16:24 --> ErrorException: Undefined array key "us_adress"
+[Method: POST, Route: verifAdmin]
+in APPPATH\Controllers\controllerConnexion.php on line 47.
+ 1 APPPATH\Controllers\controllerConnexion.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "us_adress"', 'C:\\wamp64\\www\\Supercar\\app\\Controllers\\controllerConnexion.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerConnexion->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerConnexion))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 06:44:01 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Client/controllerConnexion::connexion"
+[Method: GET, Route: connexion]
+in SYSTEMPATH\Router\Router.php on line 496.
+ 1 SYSTEMPATH\Router\Router.php(496): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Client/controllerConnexion::connexion')
+ 2 SYSTEMPATH\Router\Router.php(213): CodeIgniter\Router\Router->checkRoutes('connexion')
+ 3 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 06:44:08 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerConnexion::connexion
+[Method: GET, Route: contact]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerConnexion', 'connexion')
+ 2 APPPATH\Views\sidenav.php(38): url_to('controllerConnexion::connexion')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\sidenav.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sidenav', [], true)
+ 6 APPPATH\Views\miseEnPage.php(9): view('sidenav')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\miseEnPage.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('miseEnPage', [], true)
+10 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageContact', [], true)
+11 APPPATH\Controllers\controllerContact.php(12): view('pageContact', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerContact->contact()
+13 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerContact))
+14 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 06:44:13 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: controllerConnexion::connexion
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('controllerConnexion', 'connexion')
+ 2 APPPATH\Views\sidenav.php(38): url_to('controllerConnexion::connexion')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\sidenav.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sidenav', [], true)
+ 6 APPPATH\Views\miseEnPage.php(9): view('sidenav')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\miseEnPage.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('miseEnPage', [], true)
+10 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageAcceuil', [], true)
+11 APPPATH\Controllers\controllerAcceuil.php(19): view('pageAcceuil', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\controllerAcceuil->acceuil()
+13 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controllerAcceuil))
+14 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 06:47:02 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Client/controllerConnexion::connexion"
+[Method: GET, Route: connexion]
+in SYSTEMPATH\Router\Router.php on line 496.
+ 1 SYSTEMPATH\Router\Router.php(496): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Client/controllerConnexion::connexion')
+ 2 SYSTEMPATH\Router\Router.php(213): CodeIgniter\Router\Router->checkRoutes('connexion')
+ 3 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 06:52:44 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\controllerClient::formInscription
+[Method: GET, Route: connexion]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\controllerClient', 'formInscription')
+ 2 APPPATH\Views\pageConnexion.php(44): url_to('Client\\controllerClient::formInscription')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 6 APPPATH\Controllers\Client\controllerConnexion.php(10): view('pageConnexion')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerConnexion->connexion()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerConnexion))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 06:52:46 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\controllerClient::formInscription
+[Method: GET, Route: connexion]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\controllerClient', 'formInscription')
+ 2 APPPATH\Views\pageConnexion.php(44): url_to('Client\\controllerClient::formInscription')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 6 APPPATH\Controllers\Client\controllerConnexion.php(10): view('pageConnexion')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerConnexion->connexion()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerConnexion))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 06:52:49 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\controllerClient::formInscription
+[Method: GET, Route: connexion]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\controllerClient', 'formInscription')
+ 2 APPPATH\Views\pageConnexion.php(44): url_to('Client\\controllerClient::formInscription')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageConnexion.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageConnexion', [], true)
+ 6 APPPATH\Controllers\Client\controllerConnexion.php(10): view('pageConnexion')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerConnexion->connexion()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerConnexion))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 06:59:18 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\TESTAGE::pageTest
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\TESTAGE', 'pageTest')
+ 2 APPPATH\Views\pageAcceuil.php(14): url_to('Client\\TESTAGE::pageTest')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageAcceuil.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageAcceuil', [], true)
+ 6 APPPATH\Controllers\Client\controllerAcceuil.php(19): view('pageAcceuil', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerAcceuil->acceuil()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerAcceuil))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 06:59:52 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\controllerVoiture::affichageVoiture
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\controllerVoiture', 'affichageVoiture')
+ 2 APPPATH\Views\sidenav.php(48): url_to('Client\\controllerVoiture::affichageVoiture')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\sidenav.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sidenav', [], true)
+ 6 APPPATH\Views\miseEnPage.php(9): view('sidenav')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\miseEnPage.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('miseEnPage', [], true)
+10 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageAcceuil', [], true)
+11 APPPATH\Controllers\Client\controllerAcceuil.php(19): view('pageAcceuil', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerAcceuil->acceuil()
+13 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerAcceuil))
+14 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 07:03:11 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\controllerService::service
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\controllerService', 'service')
+ 2 APPPATH\Views\sidenav.php(56): url_to('Client\\controllerService::service')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\sidenav.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sidenav', [], true)
+ 6 APPPATH\Views\miseEnPage.php(9): view('sidenav')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\miseEnPage.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('miseEnPage', [], true)
+10 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageAcceuil', [], true)
+11 APPPATH\Controllers\Client\controllerAcceuil.php(19): view('pageAcceuil', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerAcceuil->acceuil()
+13 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerAcceuil))
+14 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 07:03:40 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\controllerContact::contact
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\controllerContact', 'contact')
+ 2 APPPATH\Views\sidenav.php(59): url_to('Client\\controllerContact::contact')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\sidenav.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sidenav', [], true)
+ 6 APPPATH\Views\miseEnPage.php(9): view('sidenav')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\miseEnPage.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('miseEnPage', [], true)
+10 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageAcceuil', [], true)
+11 APPPATH\Controllers\Client\controllerAcceuil.php(19): view('pageAcceuil', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerAcceuil->acceuil()
+13 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerAcceuil))
+14 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 09:45:00 --> TypeError: CodeIgniter\Router\RouteCollection::group(): Argument #1 ($name) must be of type string, array given, called in C:\wamp64\www\Supercar\app\Config\Routes.php on line 18
+[Method: GET, Route: client/Acceuil]
+in SYSTEMPATH\Router\RouteCollection.php on line 770.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->group([...], Object(Closure))
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\wamp64\\www\\Supercar\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 09:45:02 --> TypeError: CodeIgniter\Router\RouteCollection::group(): Argument #1 ($name) must be of type string, array given, called in C:\wamp64\www\Supercar\app\Config\Routes.php on line 18
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 770.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->group([...], Object(Closure))
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\wamp64\\www\\Supercar\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 09:45:04 --> TypeError: CodeIgniter\Router\RouteCollection::group(): Argument #1 ($name) must be of type string, array given, called in C:\wamp64\www\Supercar\app\Config\Routes.php on line 18
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 770.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->group([...], Object(Closure))
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\wamp64\\www\\Supercar\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 09:45:06 --> TypeError: CodeIgniter\Router\RouteCollection::group(): Argument #1 ($name) must be of type string, array given, called in C:\wamp64\www\Supercar\app\Config\Routes.php on line 18
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 770.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->group([...], Object(Closure))
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\wamp64\\www\\Supercar\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 09:45:08 --> TypeError: CodeIgniter\Router\RouteCollection::group(): Argument #1 ($name) must be of type string, array given, called in C:\wamp64\www\Supercar\app\Config\Routes.php on line 18
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 770.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->group([...], Object(Closure))
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\wamp64\\www\\Supercar\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-24 09:46:34 --> Error: Class "App\Filters\AdminFilter" not found
+[Method: GET, Route: Admin]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('App\\Filters\\AdminFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('Admin', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,59 @@
+CRITICAL - 2026-01-07 03:47:08 --> ErrorException: Undefined variable $titre
+[Method: GET, Route: Admin/Voiture/ajoutVoiture]
+in APPPATH\Views\admin\ajoutVoiture.php on line 15.
+ 1 APPPATH\Views\admin\ajoutVoiture.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titre', 'C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\ajoutVoiture.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\admin\\ajoutVoiture.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/ajoutVoiture', [], true)
+ 5 APPPATH\Controllers\Admin\controllerVoiture.php(148): view('admin/ajoutVoiture')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\controllerVoiture->formVoiture()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\controllerVoiture))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-07 04:10:10 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\VoitureController::index
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\VoitureController', 'index')
+ 2 APPPATH\Views\pageAcceuil.php(25): url_to('Client\\VoitureController::index')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageAcceuil.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageAcceuil', [], true)
+ 6 APPPATH\Controllers\Client\controllerAcceuil.php(19): view('pageAcceuil', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerAcceuil->acceuil()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerAcceuil))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-07 04:11:25 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\VoitureController::index
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\VoitureController', 'index')
+ 2 APPPATH\Views\pageAcceuil.php(25): url_to('Client\\VoitureController::index')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageAcceuil.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageAcceuil', [], true)
+ 6 APPPATH\Controllers\Client\controllerAcceuil.php(19): view('pageAcceuil', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerAcceuil->acceuil()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerAcceuil))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-07 04:12:16 --> CodeIgniter\Router\Exceptions\RouterException: Controller or its method is not found: Client\VoitureController::index
+[Method: GET, Route: Acceuil]
+in SYSTEMPATH\Helpers\url_helper.php on line 509.
+ 1 SYSTEMPATH\Helpers\url_helper.php(509): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('Client\\VoitureController', 'index')
+ 2 APPPATH\Views\pageAcceuil.php(25): url_to('Client\\VoitureController::index')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\Supercar\\app\\Views\\pageAcceuil.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pageAcceuil', [], true)
+ 6 APPPATH\Controllers\Client\controllerAcceuil.php(19): view('pageAcceuil', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\controllerAcceuil->acceuil()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\controllerAcceuil))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

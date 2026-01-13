@@ -9,8 +9,9 @@
         <meta name="author" content="">
         <title>New page</title>
         <link href="<?= base_url('assets/css/pageContact.css') ?>" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@1.9.3/dist/tailwind.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
     </head>
     <body>
         <div class="descri">
@@ -22,15 +23,20 @@
             <span>
                 N'hesitez pas a nous contacter. <i class="fa-solid fa-face-smile-beam"></i> </span>
         </div>
-        <form>
+        <form action="<?= route_to('envoyerMessage') ?>" method="post">
             <div class="cont-champ">
                 <input type="text" placeholder="Votre Nom" name="nom" id="nom" class="champ"/>
                 <input type="text" placeholder="Votre Prenom" name="prenom" id="prenom" class="champ"/>
                 <input type="email" placeholder="Votre Email" name="email" id="email" class="champ"/>
                 <input type="number" placeholder="Votre Numero Telephone" name="telephone" id="telephone" class="champ"/>
-                <textarea placeholder="Dites-nous?"></textarea>
-                <div>
-                    <button type="submit">Soumettre</button>
+                <label>Modalité de contact préférée :</label>
+                <div style="display: flex; gap: 20px; margin-bottom: 15px;">
+                    <label for="email"><input type="radio" name="modalite_contact" id="modalite_contact"  value="email"/> Email</label>
+                    <label for="telephone"><input type="radio" name="modalite_contact" id="modalite_contact"  value="telephone"/> Telephone</label>
+                </div>
+                <textarea placeholder="Dites-nous?" name="message" id="message"></textarea>
+                <div class="cont-boutton">
+                    <button class="btn btn-dark" type="submit">Soumettre</button>
                     <button type="reset">Annuler</button>
                 </div>
             </div>

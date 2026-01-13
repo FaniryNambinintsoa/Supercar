@@ -41,7 +41,7 @@
                             <button type="submit" class="btn-connex" >Se connecter</button>                             
                         </div>                         
                         <div class="cont-insc"> 
-                            <span>Vous n'avez pas de compte?  <a href="<?= url_to('controllerClient::formInscription') ?>" >S'inscrire</a> </span> 
+                            <span>Vous n'avez pas de compte?  <a href="<?= url_to('Client\controllerClient::formInscription') ?>" >S'inscrire</a> </span> 
                         </div>                         
                     </form>                     
                 </div>                 
